@@ -70,6 +70,10 @@ jobs:
         run: |
           python src/generate_video.py
 
+       - name: Add Instrumental Music
+        run: |
+          python src/add_music.py
+
 
       # ==========================================================
       # 6. CHECK GENERATED FILES
