@@ -63,20 +63,23 @@ jobs:
       - name: Generate AI Quote Video
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-
-          # Current Gemini model
           GEMINI_MODEL: gemini-3.6-flash
 
         run: |
           python src/generate_video.py
 
-       - name: Add Instrumental Music
+
+      # ==========================================================
+      # 6. ADD INSTRUMENTAL MUSIC
+      # ==========================================================
+
+      - name: Add Instrumental Music
         run: |
           python src/add_music.py
 
 
       # ==========================================================
-      # 6. CHECK GENERATED FILES
+      # 7. CHECK GENERATED FILES
       # ==========================================================
 
       - name: Check generated files
@@ -97,7 +100,7 @@ jobs:
 
 
       # ==========================================================
-      # 7. UPLOAD VIDEO ARTIFACT
+      # 8. UPLOAD VIDEO ARTIFACT
       # ==========================================================
 
       - name: Upload video artifact
@@ -110,7 +113,7 @@ jobs:
 
 
       # ==========================================================
-      # 8. UPLOAD AI METADATA ARTIFACT
+      # 9. UPLOAD AI METADATA ARTIFACT
       # ==========================================================
 
       - name: Upload AI metadata
@@ -123,16 +126,12 @@ jobs:
 
 
       # ==========================================================
-      # 9. UPLOAD VIDEO TO YOUTUBE
+      # 10. UPLOAD VIDEO TO YOUTUBE
       # ==========================================================
 
       - name: Upload to YouTube
         env:
           YOUTUBE_OAUTH_JSON: ${{ secrets.YOUTUBE_OAUTH_JSON }}
-
-          # public = automatically publish
-          # private = upload privately
-          # unlisted = upload as unlisted
           YOUTUBE_PRIVACY_STATUS: public
 
         run: |
@@ -140,7 +139,7 @@ jobs:
 
 
       # ==========================================================
-      # 10. SHOW SUCCESS MESSAGE
+      # 11. SHOW SUCCESS MESSAGE
       # ==========================================================
 
       - name: Job summary
@@ -151,6 +150,7 @@ jobs:
           echo "======================================"
           echo ""
           echo "AI video generated successfully."
+          echo "Instrumental music added successfully."
           echo "Metadata generated successfully."
           echo "Artifact uploaded successfully."
           echo "YouTube upload completed successfully."
