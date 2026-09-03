@@ -1,0 +1,35 @@
+name: Generate Quote Video
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 6 * * *"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          pip install -r requirements.txt
+
+      - name: Generate video
+        run: |
+          python src/generate_video.py
+
+      - name: Upload generated video
+        uses: actions/upload-artifact@v4
+        with:
+          name: quote-reel
+          path: output/quote_reel.mp4
