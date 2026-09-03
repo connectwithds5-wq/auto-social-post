@@ -54,10 +54,40 @@ Rules:
 - Use 5 to 10 hashtags.
 """
 
-response = client.models.generate_content(
-    model="gemini-3.6-flash",
-    contents=prompt
-)
+import time
+
+# Gemini API with automatic retry
+max_retries = 5
+response = None
+
+for attempt in range(max_retries):
+    try:
+        print(f"Gemini API attempt {attempt + 1}/{max_retries}...")
+
+        response = client.models.generate_content(
+            model="gemini-3.6-flash",
+            contents=prompt
+        )
+
+        print("Gemini API success!")
+        break
+
+    except Exception as e:
+        print(f"Gemini API error: {e}")
+
+        if attempt == max_retries - 1:
+            raise RuntimeError(
+                "Gemini API failed after 5 attempts."
+            ) from e
+
+        wait_time = 30 * (attempt + 1)
+
+        print(
+            f"Gemini is temporarily unavailable. "
+            f"Waiting {wait_time} seconds before retry..."
+        )
+
+        time.sleep(wait_time)
 
 text = response.text.strip()
 
