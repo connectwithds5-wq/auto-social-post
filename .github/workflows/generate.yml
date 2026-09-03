@@ -11,52 +11,144 @@ permissions:
   contents: read
 
 jobs:
+
   generate:
+
     runs-on: ubuntu-latest
 
     steps:
 
-      # 1. Checkout repository
+      # ==========================================================
+      # 1. CHECKOUT REPOSITORY
+      # ==========================================================
+
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. Setup Python
+
+      # ==========================================================
+      # 2. SETUP PYTHON
+      # ==========================================================
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      # 3. Install FFmpeg
+
+      # ==========================================================
+      # 3. INSTALL FFMPEG
+      # ==========================================================
+
       - name: Install FFmpeg
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg
 
-      # 4. Install Python packages
+
+      # ==========================================================
+      # 4. INSTALL PYTHON DEPENDENCIES
+      # ==========================================================
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # 5. Generate AI content + video
+
+      # ==========================================================
+      # 5. GENERATE AI QUOTE + VIDEO
+      # ==========================================================
+
       - name: Generate AI Quote Video
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+          # Current Gemini model
+          GEMINI_MODEL: gemini-3.8-flash
+
         run: |
           python src/generate_video.py
 
-      # 6. Upload video
+
+      # ==========================================================
+      # 6. CHECK GENERATED FILES
+      # ==========================================================
+
+      - name: Check generated files
+        run: |
+          echo "======================================"
+          echo "GENERATED FILES"
+          echo "======================================"
+
+          ls -lah output/
+
+          echo ""
+          echo "Video:"
+          ls -lh output/quote_reel.mp4
+
+          echo ""
+          echo "Metadata:"
+          ls -lh output/metadata.json
+
+
+      # ==========================================================
+      # 7. UPLOAD VIDEO ARTIFACT
+      # ==========================================================
+
       - name: Upload video artifact
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: quote-reel
           path: output/quote_reel.mp4
           retention-days: 7
 
-      # 7. Upload AI metadata
+
+      # ==========================================================
+      # 8. UPLOAD AI METADATA ARTIFACT
+      # ==========================================================
+
       - name: Upload AI metadata
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: quote-metadata
           path: output/metadata.json
           retention-days: 7
+
+
+      # ==========================================================
+      # 9. UPLOAD VIDEO TO YOUTUBE
+      # ==========================================================
+
+      - name: Upload to YouTube
+        env:
+          YOUTUBE_OAUTH_JSON: ${{ secrets.YOUTUBE_OAUTH_JSON }}
+
+          # public = automatically publish
+          # private = upload privately
+          # unlisted = upload as unlisted
+          YOUTUBE_PRIVACY_STATUS: public
+
+        run: |
+          python src/upload_youtube.py
+
+
+      # ==========================================================
+      # 10. SHOW SUCCESS MESSAGE
+      # ==========================================================
+
+      - name: Job summary
+        if: success()
+        run: |
+          echo "======================================"
+          echo "       AI VIDEO PIPELINE SUCCESS"
+          echo "======================================"
+          echo ""
+          echo "AI video generated successfully."
+          echo "Metadata generated successfully."
+          echo "Artifact uploaded successfully."
+          echo "YouTube upload completed successfully."
+          echo ""
+          echo "RISE MODE automation is LIVE!"
