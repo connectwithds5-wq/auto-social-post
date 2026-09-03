@@ -1,35 +1,62 @@
-name: Generate Quote Video
+name: Generate AI Quote Video
 
 on:
   workflow_dispatch:
+
   schedule:
+    # Every day at 6:30 UTC = 12:00 PM IST
     - cron: "30 6 * * *"
+
+permissions:
+  contents: read
 
 jobs:
   generate:
     runs-on: ubuntu-latest
 
     steps:
+
+      # 1. Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # 2. Setup Python
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
+      # 3. Install FFmpeg
+      - name: Install FFmpeg
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg
+
+      # 4. Install Python packages
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Generate video
+      # 5. Generate AI content + video
+      - name: Generate AI Quote Video
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           python src/generate_video.py
 
-      - name: Upload generated video
+      # 6. Upload video
+      - name: Upload video artifact
         uses: actions/upload-artifact@v4
         with:
           name: quote-reel
           path: output/quote_reel.mp4
+          retention-days: 7
+
+      # 7. Upload AI metadata
+      - name: Upload AI metadata
+        uses: actions/upload-artifact@v4
+        with:
+          name: quote-metadata
+          path: output/metadata.json
+          retention-days: 7
