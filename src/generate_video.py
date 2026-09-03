@@ -88,7 +88,7 @@ Return ONLY valid JSON in exactly this format:
 
 model_name = os.environ.get(
     "GEMINI_MODEL",
-    "gemini-3.6-flash"
+    "gemini-3.5-flash-lite"
 )
 
 max_retries = 5
