@@ -1,11 +1,10 @@
 name: Generate AI Quote Video
-
 on:
   workflow_dispatch:
 
   schedule:
-    # Every day at 6:30 UTC = 12:00 PM IST
     - cron: "30 6 * * *"
+    - cron: "30 12 * * *"
 
 permissions:
   contents: read
