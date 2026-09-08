@@ -1,74 +1,69 @@
 {
-  "generated_at": "2026-09-07T12:03:34.278029+00:00",
-  "overall_summary": "Analysis of 14 Shorts published between Sept 3 and Sept 7, 2026, reveals strong performance around 'Pain into Power' and 'Effort/Destiny' themes, particularly when posted between 11:00 UTC and 14:00 UTC. Videos posted outside this window show sharp drops in views.",
+  "generated_at": "2026-09-08T05:17:07.879116+00:00",
+  "overall_summary": "Analysis of 14 Shorts uploaded between Sept 3 and Sept 7, 2026, reveals strong performance around themes of transforming pain into power and upgrading effort, with peak views associated with uploads between 11:00 UTC and 14:00 UTC. Note that because the dataset is limited to 14 videos over a 5-day span, long-term statistical conclusions are preliminary.",
   "confidence": "medium",
   "what_is_working": [
     {
-      "pattern": "Action-oriented pain transformation messaging",
-      "evidence": "'Turn Your Pain Into Power | Activate RISE MODE #Shorts' achieved the highest engagement with 1,163 views, 76 likes, and 3 comments.",
-      "action": "Double down on themes that frame adversity and pain as direct fuel for growth and power."
+      "pattern": "Action-oriented pain-to-power and effort themes",
+      "evidence": "'Turn Your Pain Into Power | Activate RISE MODE #Shorts' achieved 1,163 views and 76 likes; 'Upgrade Your Effort, Master Your Destiny' achieved 1,103 views and 33 likes.",
+      "action": "Produce content centered around leveraging adversity, internal fire, and upgrading daily effort."
     },
     {
-      "pattern": "Mid-day publishing schedule (11:00 - 14:00 UTC)",
-      "evidence": "Top performing videos (1,163 views, 1,103 views, 927 views, 922 views, and 889 views) were all published between 11:00 UTC and 14:00 UTC.",
-      "action": "Schedule high-priority Shorts consistently within the 11:00 - 14:00 UTC window."
-    },
-    {
-      "pattern": "Strong imperative title verbs with explicit hashtag/branding",
-      "evidence": "Titles using verbs like 'Turn', 'Upgrade', 'Elevate', and 'Build' alongside '#Shorts' or 'RISE MODE' consistently cross 880+ views.",
-      "action": "Maintain strong action verbs at the start of titles and include branding tags."
+      "pattern": "Midday posting schedule (11:00 - 14:00 UTC)",
+      "evidence": "The top 4 highest-viewed videos (1,163, 1,103, 934, and 922 views) were all published between 11:05 UTC and 14:17 UTC.",
+      "action": "Prioritize scheduling primary Shorts daily within the 11:00 to 14:00 UTC window."
     }
   ],
   "what_to_improve": [
     {
-      "pattern": "Off-peak publishing timing",
-      "evidence": "'Activate Your RISE MODE' published at 16:23 UTC got 9 views, and 'Stop Hiding Your Scars' published at 04:33 UTC got 1 view.",
-      "action": "Avoid posting during early morning (02:00–05:00 UTC) or late afternoon (16:00–20:00 UTC)."
+      "pattern": "Off-peak posting times leading to low reach",
+      "evidence": "A video published at 16:23 UTC received only 9 views, while a post at 04:33 UTC reached 244 views.",
+      "action": "Avoid posting core uploads during early morning (04:00 UTC) or late afternoon (16:00 UTC) slots."
     },
     {
-      "pattern": "Multiple uploads within short intervals on the same day",
-      "evidence": "On Sept 3, uploading four times led to a drop from 1,163/1,103 views to 9 views on the later post (16:23 UTC).",
-      "action": "Cap daily uploads to 2 high-quality Shorts spaced at least 4 to 6 hours apart."
+      "pattern": "Low viewer comment engagement across uploads",
+      "evidence": "11 out of 14 videos generated 0 comments.",
+      "action": "Include active call-to-action prompts or controversial/thought-provoking questions in video hooks and titles to spur discussion."
     }
   ],
   "best_posting_windows": [
     {
       "window": "11:00 UTC - 14:00 UTC",
-      "reason": "Yields highest average viewership (889 to 1,163 views) and engagement across the dataset.",
-      "confidence": "high"
+      "reason": "Yielded the highest performing content in both views (1,163 peak) and likes (76 peak) across the dataset.",
+      "confidence": "medium"
     },
     {
       "window": "06:00 UTC - 07:00 UTC",
-      "reason": "Secondary peak producing steady performance between 624 and 893 views.",
+      "reason": "Consistently delivered solid baseline views ranging from 872 to 894 across multiple days.",
       "confidence": "medium"
     }
   ],
   "next_best_topics": [
     {
       "priority": 1,
-      "topic": "Converting Betrayal & Setbacks into Momentum",
-      "hook": "They thought they broke you. They just handed you your weapon.",
-      "format": "10-second high-tempo visual with bold text overlay and aggressive voiceover",
-      "reason": "Expands on the top-performing 'Pain into Power' theme (1,163 views, 76 likes).",
-      "confidence": "high"
+      "topic": "Forge Fuel From Failure",
+      "hook": "They expected you to stay down. Use the weight to build armor.",
+      "format": "10-second high-energy typography overlay with dark atmospheric visual background",
+      "reason": "'Pain into Power' messaging generated the highest engagement (1,163 views, 76 likes).",
+      "confidence": "medium"
     },
     {
       "priority": 2,
-      "topic": "Unseen Work & Quiet Discipline",
-      "hook": "Let them sleep on your progress. Wake them up with your results.",
-      "format": "10-second minimalist cinematic video with dark aesthetics and strong rhythmic audio",
-      "reason": "'Silent Discipline' themes consistently generate solid views (829 to 871 views).",
+      "topic": "Relentless Silent Execution",
+      "hook": "Don't announce the move. Let the results make the noise.",
+      "format": "10-second fast-paced text quote with cinematic motivational background",
+      "reason": "Silent discipline and effort titles consistently maintained strong mid-tier performance (829 to 934 views).",
       "confidence": "medium"
     }
   ],
   "avoid_or_limit": [
     {
-      "item": "Posting outside core peak hours (e.g. 16:00 - 20:00 UTC)",
-      "reason": "Posts in late afternoon UTC severely underperformed (e.g., 9 views at 16:23 UTC)."
+      "item": "Late afternoon uploads around 16:00 UTC",
+      "reason": "The upload at 16:23 UTC experienced severe underperformance relative to all other time slots (9 views vs dataset average of ~785 views)."
     },
     {
-      "item": "Excessive daily uploading (more than 2 posts per day)",
-      "reason": "Dataset indicates lower view retention and lower engagement on third and fourth daily uploads."
+      "item": "Passive title phrasing",
+      "reason": "Titles starting with strong imperatives ('Turn', 'Upgrade', 'Elevate') systematically outperformed softer or passive titles."
     }
   ],
   "data_points": 14
