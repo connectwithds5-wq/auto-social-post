@@ -1,10 +1,10 @@
-<!-- AI CONTENT STRATEGY V1 SECTION -->
+<!-- AI CONTENT STRATEGY V2 SECTION -->
 <section id="strategy" style="margin-top:18px">
   <div class="card">
     <div class="head">
       <div>
         <div class="name">🤖 AI Content Strategy</div>
-        <div class="repo">Data-driven next-topic recommendations</div>
+        <div class="repo">Analytics → recommendation → next video</div>
       </div>
       <button class="runbtn" onclick="loadStrategy()">↻ ANALYZE</button>
     </div>
@@ -13,36 +13,23 @@
 </section>
 
 <script>
+function esc(v){
+  return String(v ?? "").replace(/[&<>'"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;","\"":"&quot;"}[c]));
+}
 async function loadStrategy(){
   const el=document.getElementById("strategyBody");
   try{
     const r=await fetch("https://raw.githubusercontent.com/connectwithds5-wq/auto-social-post/main/strategy.json?ts="+Date.now());
     if(!r.ok) throw Error("Strategy data not available yet");
     const d=await r.json();
-    const topics=(d.next_best_topics||[]).map(x=>`
-      <div style="padding:10px 0;border-bottom:1px solid #19253a">
-        <b>🔥 #${x.priority} ${esc(x.topic||"")}</b>
-        <div class="time">🪝 ${esc(x.hook||"")}</div>
-        <div class="time">🎬 ${esc(x.format||"")}</div>
-        <div class="time">💡 ${esc(x.reason||"")}</div>
-      </div>`).join("");
-    const works=(d.what_is_working||[]).map(x=>`
-      <div style="padding:7px 0">✅ <b>${esc(x.pattern||"")}</b> — ${esc(x.action||"")}</div>`).join("");
-    const improve=(d.what_to_improve||[]).map(x=>`
-      <div style="padding:7px 0">⚠️ <b>${esc(x.pattern||"")}</b> — ${esc(x.action||"")}</div>`).join("");
-    el.innerHTML=`
-      <div class="schedule">📊 <b>Confidence:</b> ${esc(d.confidence||"—")} • <b>Videos analyzed:</b> ${esc(d.data_points||0)}</div>
-      <div style="padding:8px 0 12px">${esc(d.overall_summary||"")}</div>
-      <div class="recent-title">🔥 NEXT BEST TOPICS</div>
-      ${topics||'<div class="empty">No recommendations yet.</div>'}
-      <div class="recent-title" style="margin-top:14px">📈 WHAT'S WORKING</div>
-      ${works||'<div class="empty">No strong pattern yet.</div>'}
-      <div class="recent-title" style="margin-top:14px">⚠️ WHAT TO IMPROVE</div>
-      ${improve||'<div class="empty">No improvement signals yet.</div>'}
-    `;
-  }catch(e){
-    el.innerHTML='<div class="err">'+esc(e.message)+'</div>';
-  }
+    const list=d.next_best_topics||[];
+    const next=list[0];
+    const topics=list.map(x=>`<div style="padding:10px 0;border-bottom:1px solid #19253a"><b>🔥 #${esc(x.priority)} ${esc(x.topic||"")}</b><div class="time">🪝 ${esc(x.hook||"")}</div><div class="time">🎬 ${esc(x.format||"")}</div><div class="time">💡 ${esc(x.reason||"")}</div><div class="time">🎯 Confidence: ${esc(x.confidence||d.confidence||"—")}</div></div>`).join("");
+    const works=(d.what_is_working||[]).map(x=>`<div style="padding:7px 0">✅ <b>${esc(x.pattern||"")}</b> — ${esc(x.action||"")}</div>`).join("");
+    const improve=(d.what_to_improve||[]).map(x=>`<div style="padding:7px 0">⚠️ <b>${esc(x.pattern||"")}</b> — ${esc(x.action||"")}</div>`).join("");
+    const windows=(d.best_posting_windows||[]).map(x=>`<div style="padding:7px 0">⏰ <b>${esc(x.window||"")}</b> — ${esc(x.reason||"")}</div>`).join("");
+    el.innerHTML=`<div class="schedule">📊 <b>Confidence:</b> ${esc(d.confidence||"—")} • <b>Videos analyzed:</b> ${esc(d.data_points||0)}</div><div style="padding:8px 0 12px">${esc(d.overall_summary||"")}</div>${next?`<div style="margin:8px 0 14px;padding:12px;border:1px solid #30405f;border-radius:10px"><div class="recent-title">🎯 NEXT VIDEO TO CREATE</div><div style="font-size:18px;font-weight:700;margin:6px 0">${esc(next.topic||"")}</div><div class="time">🪝 ${esc(next.hook||"")}</div><div class="time">🎬 ${esc(next.format||"")}</div><div class="time">💡 ${esc(next.reason||"")}</div><div class="time">🟢 QUEUED — next generation will use this AI recommendation.</div></div>`:""}<div class="recent-title">🔥 NEXT BEST TOPICS</div>${topics||'<div class="empty">No recommendations yet.</div>'}<div class="recent-title" style="margin-top:14px">⏰ BEST POSTING WINDOWS</div>${windows||'<div class="empty">No posting-window recommendation yet.</div>'}<div class="recent-title" style="margin-top:14px">📈 WHAT'S WORKING</div>${works||'<div class="empty">No strong pattern yet.</div>'}<div class="recent-title" style="margin-top:14px">⚠️ WHAT TO IMPROVE</div>${improve||'<div class="empty">No improvement signals yet.</div>'}`;
+  }catch(e){el.innerHTML='<div class="err">'+esc(e.message)+'</div>';}
 }
 loadStrategy();
 </script>
