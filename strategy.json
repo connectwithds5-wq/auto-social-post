@@ -1,70 +1,97 @@
 {
-  "generated_at": "2026-09-08T05:17:07.879116+00:00",
-  "overall_summary": "Analysis of 14 Shorts uploaded between Sept 3 and Sept 7, 2026, reveals strong performance around themes of transforming pain into power and upgrading effort, with peak views associated with uploads between 11:00 UTC and 14:00 UTC. Note that because the dataset is limited to 14 videos over a 5-day span, long-term statistical conclusions are preliminary.",
-  "confidence": "medium",
+  "generated_at": "2026-09-08T19:03:22.223257+00:00",
+  "overall_summary": "Analysis of RISE MODE YouTube Analytics data shows strongest performance from discipline and mindset topics using seamless looping techniques. Top Shorts achieve average view percentages from 107.27% up to 269.82% with peak retention spiking in the first 2-3% of video progress. Best performing release times cluster around 06:40-06:47 UTC and 11:05-11:50 UTC.",
+  "confidence": "high",
+  "analytics_source": "youtube_analytics_api",
   "what_is_working": [
     {
-      "pattern": "Action-oriented pain-to-power and effort themes",
-      "evidence": "'Turn Your Pain Into Power | Activate RISE MODE #Shorts' achieved 1,163 views and 76 likes; 'Upgrade Your Effort, Master Your Destiny' achieved 1,103 views and 33 likes.",
-      "action": "Produce content centered around leveraging adversity, internal fire, and upgrading daily effort."
+      "pattern": "Seamless Audio/Visual Looping on Discipline Content",
+      "evidence": "Build Unshakeable Discipline achieved a 269.82% averageViewPercentage, 29s averageViewDuration, and an initial audience_watch_ratio spike of 3.43 at 0.02 progress.",
+      "action": "Produce 10-second Shorts where the ending visual frame and sentence structure connect directly to the opening hook."
     },
     {
-      "pattern": "Midday posting schedule (11:00 - 14:00 UTC)",
-      "evidence": "The top 4 highest-viewed videos (1,163, 1,103, 934, and 922 views) were all published between 11:05 UTC and 14:17 UTC.",
-      "action": "Prioritize scheduling primary Shorts daily within the 11:00 to 14:00 UTC window."
+      "pattern": "Pain into Power & Fire/Resilience Themes Driving Engagement",
+      "evidence": "Turn Your Pain Into Power (09-03) generated the highest views (1,194 studio views), highest likes (76 likes), and 2 subscribers gained.",
+      "action": "Focus topic development on channel transformation themes that turn adversity into strength."
     }
   ],
   "what_to_improve": [
     {
-      "pattern": "Off-peak posting times leading to low reach",
-      "evidence": "A video published at 16:23 UTC received only 9 views, while a post at 04:33 UTC reached 244 views.",
-      "action": "Avoid posting core uploads during early morning (04:00 UTC) or late afternoon (16:00 UTC) slots."
+      "pattern": "Retention Decaying Before 50% Video Mark",
+      "evidence": "In Turn Your Pain Into Power (09-05), audience_watch_ratio dropped from 1.17 at 0.02 progress down to 0.75 by 0.49 progress, reducing overall averageViewPercentage to 67.08%.",
+      "action": "Shorten the hook length to under 1.5 seconds, increase visual density with mid-video text cuts, and deliver the payoff by second 5."
     },
     {
-      "pattern": "Low viewer comment engagement across uploads",
-      "evidence": "11 out of 14 videos generated 0 comments.",
-      "action": "Include active call-to-action prompts or controversial/thought-provoking questions in video hooks and titles to spur discussion."
+      "pattern": "Posting During Off-Peak Afternoon Hours",
+      "evidence": "Activate Your RISE MODE published at 16:23 UTC resulted in only 9 views and a 25.47% averageViewPercentage.",
+      "action": "Eliminate publishing in the 16:00 UTC window and align strictly with proven morning/midday UTC slots."
+    }
+  ],
+  "retention_insights": [
+    {
+      "video_pattern": "Immediate Re-watch Loop Spike (0-3% Progress)",
+      "drop_or_strength": "strength",
+      "evidence": "Top videos like Build Unshakeable Discipline and Step Into The Fire show audience_watch_ratio jumping to 3.43 and 1.90 within the first 2% of video progress.",
+      "action": "Maintain high visual density from 0.0s and use persistent open loops to drive instant replays."
+    },
+    {
+      "video_pattern": "Mid-Video Hold Zone (23-26% Progress)",
+      "drop_or_strength": "strength",
+      "evidence": "Silent Discipline Creates Undeniable Power holds audience_watch_ratio steady at 1.2717 across 0.23 to 0.26 progress.",
+      "action": "Time the key visual shift or secondary text pop precisely at 2.5 seconds to sustain audience attention across this hold zone."
+    },
+    {
+      "video_pattern": "Gradual Drop-Off Towards 49% Progress",
+      "drop_or_strength": "drop",
+      "evidence": "Let Them Laugh: Your Silence Will Destroy Their Doubts drops from 1.1887 watch ratio at 0.02 progress down to 0.7453 at 0.49 progress.",
+      "action": "Position a concise CTA or strong thematic payoff right before the 50% progress mark to stop viewer drop-off."
     }
   ],
   "best_posting_windows": [
     {
-      "window": "11:00 UTC - 14:00 UTC",
-      "reason": "Yielded the highest performing content in both views (1,163 peak) and likes (76 peak) across the dataset.",
-      "confidence": "medium"
+      "window": "Midday Peak Reach Window",
+      "hour_utc": 11,
+      "minute_utc": 35,
+      "reason": "Publishing between 11:05 UTC and 11:50 UTC delivered the highest overall views (1,129 to 1,194 studio views) and highest likes (76 likes).",
+      "confidence": "high"
     },
     {
-      "window": "06:00 UTC - 07:00 UTC",
-      "reason": "Consistently delivered solid baseline views ranging from 872 to 894 across multiple days.",
-      "confidence": "medium"
+      "window": "Early Morning High-Retention Window",
+      "hour_utc": 6,
+      "minute_utc": 45,
+      "reason": "Publishing between 06:41 UTC and 06:47 UTC consistently produced high retention (up to 129.4% AVP) and ~900 views.",
+      "confidence": "high"
     }
   ],
   "next_best_topics": [
     {
       "priority": 1,
-      "topic": "Forge Fuel From Failure",
-      "hook": "They expected you to stay down. Use the weight to build armor.",
-      "format": "10-second high-energy typography overlay with dark atmospheric visual background",
-      "reason": "'Pain into Power' messaging generated the highest engagement (1,163 views, 76 likes).",
-      "confidence": "medium"
+      "topic": "Forging Relentless Mental Toughness",
+      "hook": "When the pressure rises, quiet minds execute.",
+      "format": "10-second Short with a 1.2s text hook, fast pacing, visual contrast shift at 2.5s, payoff at 5.0s, and a seamless visual loop.",
+      "reason": "Leverages the highest-performing discipline & silent power framework which generated >100% AVP.",
+      "confidence": "high"
     },
     {
       "priority": 2,
-      "topic": "Relentless Silent Execution",
-      "hook": "Don't announce the move. Let the results make the noise.",
-      "format": "10-second fast-paced text quote with cinematic motivational background",
-      "reason": "Silent discipline and effort titles consistently maintained strong mid-tier performance (829 to 934 views).",
-      "confidence": "medium"
+      "topic": "Turning Doubt into Fuel",
+      "hook": "Let their words fade while your results speak.",
+      "format": "10-second Short with bold central text overlay, dynamic visual cuts every 1.5 seconds, and call-to-action text at second 8.",
+      "reason": "Extends the 'Turn Pain Into Power' concept which achieved the channel's highest engagement (76 likes, 3 shares, 2 subs gained).",
+      "confidence": "high"
     }
   ],
   "avoid_or_limit": [
     {
-      "item": "Late afternoon uploads around 16:00 UTC",
-      "reason": "The upload at 16:23 UTC experienced severe underperformance relative to all other time slots (9 views vs dataset average of ~785 views)."
+      "item": "Publishing around 16:00 UTC",
+      "reason": "The upload at 16:23 UTC resulted in severe underperformance with only 9 views and 25.47% AVP."
     },
     {
-      "item": "Passive title phrasing",
-      "reason": "Titles starting with strong imperatives ('Turn', 'Upgrade', 'Elevate') systematically outperformed softer or passive titles."
+      "item": "Non-looping video structures without mid-video visual beats",
+      "reason": "Videos lacking early hold beats drop below 70% retention by the mid-point of the Short."
     }
   ],
-  "data_points": 14
+  "data_points": 16,
+  "owner_analytics_videos": 13,
+  "retention_videos": 11
 }
