@@ -16,6 +16,10 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # Do not leave the GitHub App token as the git remote credential.
+          # The strategy job needs WORKFLOW_PAT to update generate.yml.
+          persist-credentials: false
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -38,21 +42,24 @@ jobs:
         run: |
           python src/strategy_engine.py
 
-      - name: Apply AI-selected posting times
+      - name: Configure authenticated git remote
         env:
           WORKFLOW_PAT: ${{ secrets.WORKFLOW_PAT }}
         run: |
+          if [ -z "$WORKFLOW_PAT" ]; then
+            echo "ERROR: WORKFLOW_PAT GitHub Secret is missing."
+            exit 1
+          fi
+          git config user.name "AI Strategy Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git remote set-url origin "https://x-access-token:${WORKFLOW_PAT}@github.com/${GITHUB_REPOSITORY}.git"
+
+      - name: Apply AI-selected posting times
+        run: |
           python src/update_posting_schedule.py
           if ! git diff --quiet -- .github/workflows/generate.yml; then
-            if [ -z "$WORKFLOW_PAT" ]; then
-              echo "ERROR: WORKFLOW_PAT is required to update the Generate workflow schedule."
-              exit 1
-            fi
-            git config user.name "AI Strategy Bot"
-            git config user.email "actions@users.noreply.github.com"
             git add .github/workflows/generate.yml
             git commit -m "Update Auto Social posting schedule from analytics"
-            git remote set-url origin "https://x-access-token:${WORKFLOW_PAT}@github.com/${GITHUB_REPOSITORY}.git"
             git push origin "HEAD:${GITHUB_REF_NAME}"
           else
             echo "Posting schedule already matches AI strategy."
@@ -60,8 +67,6 @@ jobs:
 
       - name: Commit strategy data
         run: |
-          git config user.name "AI Strategy Bot"
-          git config user.email "actions@users.noreply.github.com"
           git add strategy.json strategy_history.json
           git diff --cached --quiet || git commit -m "Update AI content strategy"
-          git push
+          git push origin "HEAD:${GITHUB_REF_NAME}"
