@@ -3,7 +3,7 @@ name: AI Content Strategy
 on:
   workflow_dispatch:
   schedule:
-    # Run before both daily video generations so the newest strategy is available.
+    # Refresh before the daily generation windows.
     - cron: "0 5 * * *"
 
 permissions:
@@ -35,6 +35,27 @@ jobs:
           GEMINI_MODEL: gemini-3.6-flash
         run: |
           python src/strategy_engine.py
+
+      - name: Apply AI-selected posting times
+        env:
+          WORKFLOW_PAT: ${{ secrets.WORKFLOW_PAT }}
+        run: |
+          python src/update_posting_schedule.py
+          if ! git diff --quiet -- .github/workflows/generate.yml; then
+            if [ -z "$WORKFLOW_PAT" ]; then
+              echo "ERROR: WORKFLOW_PAT is required to update the Generate workflow schedule."
+              echo "Add the same workflow-capable PAT used by the other dynamic scheduler."
+              exit 1
+            fi
+            git config user.name "AI Strategy Bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add .github/workflows/generate.yml
+            git commit -m "Update Auto Social posting schedule from analytics"
+            git remote set-url origin "https://x-access-token:${WORKFLOW_PAT}@github.com/${GITHUB_REPOSITORY}.git"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          else
+            echo "Posting schedule already matches AI strategy."
+          fi
 
       - name: Commit strategy data
         run: |
