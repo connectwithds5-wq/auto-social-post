@@ -25,16 +25,15 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
+          pip install -r requirements.txt
           pip install google-genai requests
 
       - name: Run AI strategy engine with YouTube Analytics
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          YOUTUBE_CHANNEL_ID: ${{ vars.YOUTUBE_CHANNEL_ID }}
-          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
-          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
-          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          YOUTUBE_CHANNEL_ID: ${{ vars.YOUTUBE_CHANNEL_ID || secrets.YOUTUBE_CHANNEL_ID }}
+          YOUTUBE_OAUTH_JSON: ${{ secrets.YOUTUBE_OAUTH_JSON }}
           GEMINI_MODEL: gemini-3.6-flash
         run: |
           python src/strategy_engine.py
@@ -47,7 +46,6 @@ jobs:
           if ! git diff --quiet -- .github/workflows/generate.yml; then
             if [ -z "$WORKFLOW_PAT" ]; then
               echo "ERROR: WORKFLOW_PAT is required to update the Generate workflow schedule."
-              echo "Add the same workflow-capable PAT used by the other dynamic scheduler."
               exit 1
             fi
             git config user.name "AI Strategy Bot"
