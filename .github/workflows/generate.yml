@@ -5,7 +5,7 @@ on:
 
   schedule:
     - cron: "45 6 * * *"
-    - cron: "35 11 * * *"
+    - cron: "45 11 * * *"
 
 permissions:
   contents: read
