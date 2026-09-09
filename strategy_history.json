@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T19:02:55.489959+00:00",
+  "updated_at": "2026-09-09T05:16:46.932594+00:00",
   "analytics_source": "youtube_analytics_api",
   "videos": [
     {
@@ -10,8 +10,8 @@
       "channel_title": "Rise Mode",
       "category_id": "22",
       "duration": "PT11S",
-      "views": 154,
-      "likes": 6,
+      "views": 258,
+      "likes": 12,
       "comments": 0
     },
     {
@@ -22,8 +22,8 @@
       "channel_title": "Rise Mode",
       "category_id": "22",
       "duration": "PT11S",
-      "views": 313,
-      "likes": 23,
+      "views": 467,
+      "likes": 25,
       "comments": 2
     },
     {
@@ -34,7 +34,7 @@
       "channel_title": "Rise Mode",
       "category_id": "22",
       "duration": "PT11S",
-      "views": 853,
+      "views": 945,
       "likes": 34,
       "comments": 0
     },
@@ -46,7 +46,7 @@
       "channel_title": "Rise Mode",
       "category_id": "22",
       "duration": "PT11S",
-      "views": 640,
+      "views": 951,
       "likes": 33,
       "comments": 2,
       "owner_analytics": {
@@ -69,7 +69,7 @@
       "channel_title": "Rise Mode",
       "category_id": "22",
       "duration": "PT11S",
-      "views": 867,
+      "views": 861,
       "likes": 22,
       "comments": 0,
       "owner_analytics": {
