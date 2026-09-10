@@ -1,91 +1,91 @@
 {
-  "generated_at": "2026-09-09T05:17:14.555762+00:00",
-  "overall_summary": "RISE MODE content performs best when centered on high-intensity discipline, transforming pain into power, and silent execution themes. Top-performing Shorts achieve loop retention over 100% (up to 269.82% APV) driven by an immediate visual/auditory spike within the first 2% of video progress. Posting between 06:40-06:50 UTC and 11:00-12:45 UTC yields the highest average view percentages and overall views, whereas late afternoon slots (e.g., 16:23 UTC) show severe drop-offs.",
+  "generated_at": "2026-09-10T05:16:45.399067+00:00",
+  "overall_summary": "Analysis of RISE MODE short-form content indicates strong performance for videos focused on silent discipline, converting pain into power, and effort escalation. High-performing videos reach over 100% average view percentages due to seamless loop structures and immediate visual/auditory hooks that drive audience re-watches. Strategic posting around 11:30 UTC and 06:45 UTC yields the highest overall reach and engagement.",
   "confidence": "high",
   "analytics_source": "youtube_analytics_api",
   "what_is_working": [
     {
-      "pattern": "High-Density Discipline & Rewatchable Loop Structure",
-      "evidence": "'Build Unshakeable Discipline' achieved an Average Percentage Watched (APV) of 269.82%, 29s Average View Duration (AVD), and 116 estimated minutes watched, with audience watch ratio climbing from 3.34 at 1% progress to 3.43 at 2% progress.",
-      "action": "Maintain short, punchy 10-15 second video structures that seamlessly loop back to the initial sentence, sparking multiple views per session."
+      "pattern": "High-retention looping on discipline and effort themes",
+      "evidence": "'Build Unshakeable Discipline' achieved an average view percentage of 269.82% with 29s average view duration and an audience watch ratio starting at 3.34.",
+      "action": "Design 10-second Shorts with audio loops that seamlessly connect the final line back to the opening hook."
     },
     {
-      "pattern": "Themes of Silent Mastery and Converting Pain to Power",
-      "evidence": "'Turn Your Pain Into Power | Activate RISE MODE' generated 1,161 views and 76 likes with an 83.72% APV, while 'Activate Your Silent Discipline' reached 119.37% APV and 11s AVD.",
-      "action": "Double down on themes around emotional armor, quiet grit, and reframing setbacks into strength."
+      "pattern": "Midday publishing windows driving top total engagement",
+      "evidence": "'Turn Your Pain Into Power | Activate RISE MODE' published at 11:39 UTC achieved 1,196 Studio views, 76 likes, and 2 subscriber conversions.",
+      "action": "Prioritize publishing top-tier motivation concepts during the 11:00-12:00 UTC window."
     }
   ],
   "what_to_improve": [
     {
-      "pattern": "Late Afternoon Upload Performance Deficits",
-      "evidence": "'Activate Your RISE MODE' posted at 16:23 UTC generated only 9 views, an APV of 25.47%, and an AVD of 2s.",
-      "action": "Eliminate publishing in the 16:00-17:00 UTC window and stick exclusively to proven morning/midday posting slots."
+      "pattern": "Late afternoon posting time drop-off",
+      "evidence": "'Activate Your RISE MODE | Powerful Mindset Motivation' published at 16:23 UTC reached only 9 views with an average view percentage of 25.47% and 2s duration.",
+      "action": "Avoid publishing high-effort content during late afternoon UTC hours where reach drops drastically."
     },
     {
-      "pattern": "Generic Mindset Hooks Without Early Visual Intensity",
-      "evidence": "Videos relying on generic activation hooks without early visual spikes drop retention to under 70% APV (e.g., 'Turn Your Pain Into Power' at 67.08% APV).",
-      "action": "Front-load dynamic visual motion and a sharp narrative hook within 0.0 to 0.5 seconds to force an immediate surge in watch ratio."
+      "pattern": "Inconsistent early hook retention on repetitive titling",
+      "evidence": "'Turn Pain Into Armor' published at 06:41 UTC garnered only 15 Studio views and 37.27% average view percentage compared to 83.82%+ for distinct title angles.",
+      "action": "Use punchy, highly differentiated title hooks rather than slight variations of 'Pain Into Armor'."
     }
   ],
   "retention_insights": [
     {
-      "video_pattern": "Immediate 0-2% Loop Retention Surge",
+      "video_pattern": "Strong instant hold zone with immediate audience re-watch",
       "drop_or_strength": "strength",
-      "evidence": "'Step Into The Fire' spikes watch ratio from 1.0585 at 1% progress to 1.9043 at 2% progress, holding near 1.39 at 49% progress.",
-      "action": "Keep hook audio under 1.5 seconds so viewers rewatch the first phrase before deciding to scroll."
+      "evidence": "'Step Into The Fire' maintains an audience watch ratio of 1.9043 at 0.02 progress and finishes at 1.3936 at 0.49 progress, generating 129.4% average view percentage.",
+      "action": "Maintain high visual density and loud audio cues in the first 0.5 seconds to establish an immediate high watch ratio."
     },
     {
-      "video_pattern": "Mid-Video Retention Flattening (23%-49% Progress)",
-      "drop_or_strength": "strength",
-      "evidence": "In 'Activate Your Silent Discipline', relative retention remains high and stable from 23% progress (0.5518) through 49% progress (0.5618).",
-      "action": "Place core narrative payoff right around the 50% mark, following up with a quick seamless loop prompt rather than an explicit channel outro."
+      "video_pattern": "Gradual drop-off through mid-video progression",
+      "drop_or_strength": "drop",
+      "evidence": "'Let Them Laugh: Your Silence Will Destroy Their Doubts' declines from 1.205 watch ratio at 0.02 to 0.7531 at 0.49 progress (70.57% avg view percentage).",
+      "action": "Deliver the core emotional payoff earlier at second 4 to 6 before audience attention wanes."
     }
   ],
   "best_posting_windows": [
     {
-      "window": "Morning Peak Window",
-      "hour_utc": 6,
-      "minute_utc": 45,
-      "reason": "Consistent high retention across multiple uploads (e.g., 06:43 UTC and 06:45 UTC yielding 86.61% to 129.40% APV).",
+      "window": "Midday Engagement Peak",
+      "hour_utc": 11,
+      "minute_utc": 30,
+      "reason": "Consistently generates highest view counts (1,129-1,196 views) and maximum likes (76 likes) alongside view percentages over 100%.",
       "confidence": "high"
     },
     {
-      "window": "Midday Peak Window",
-      "hour_utc": 11,
+      "window": "Early Morning Reach Window",
+      "hour_utc": 6,
       "minute_utc": 45,
-      "reason": "Produces maximum view counts (up to 1,161 views), high engagement (76 likes), and peak looping retention (up to 269.82% APV).",
+      "reason": "Delivers strong retention metrics including 129.4% average view percentage and steady initial algorithmic pickup.",
       "confidence": "high"
     }
   ],
   "next_best_topics": [
     {
       "priority": 1,
-      "topic": "Forging Quiet Dominance",
-      "hook": "While they post their plans, forge your power in the dark.",
-      "format": "10-second fast-paced short with high-contrast text overlays and seamlessly looping audio.",
-      "reason": "Capitalizes on proven silent discipline themes that drive >100% APV metrics.",
+      "topic": "Silent Execution & Dark Work",
+      "hook": "While they brag about plans, build an empire in total silence.",
+      "format": "10-second Short with fast visual cuts, high-contrast typography, and a 1-second seamless loop script.",
+      "reason": "Themes centered on quiet discipline and silence consistently cross 100% watch percentages across multiple uploads.",
       "confidence": "high"
     },
     {
       "priority": 2,
-      "topic": "Weaponizing Disappointment",
-      "hook": "Never waste a single scar. Turn every regret into heavy armor.",
-      "format": "12-second intense visual short featuring dark cinematic visuals and strong typography.",
-      "reason": "Pain-to-power topics consistently achieve highest likes (76 likes) and high view counts.",
+      "topic": "Reframing Failure into Fuel",
+      "hook": "Do not hide your stumbles; let them forge your unbreakable focus.",
+      "format": "10-second Short with dynamic text overlays, escalating voiceover pacing, and a CTA overlay at second 8.",
+      "reason": "Themes converting setbacks into strength yield the highest total views (1,100+) and engagement ratios.",
       "confidence": "high"
     }
   ],
   "avoid_or_limit": [
     {
-      "item": "Uploading between 16:00 UTC and 18:00 UTC",
-      "reason": "Data shows complete loss of traction (9 views, 25.47% APV at 16:23 UTC)."
+      "item": "Posting during the 16:00 UTC time block",
+      "reason": "Uploads during this slot experienced critical underperformance (9 views, 25.47% watch percentage)."
     },
     {
-      "item": "Outro text and explicit subscribe call-outs at the end of Shorts",
-      "reason": "Destroys seamless looping retention curves which rely on immediate restart interest."
+      "item": "Exact title recycling across consecutive days",
+      "reason": "Reusing identical hooks like 'Turn Pain Into Armor' leads to lower impression pickup and diminished average view percentages."
     }
   ],
-  "data_points": 16,
-  "owner_analytics_videos": 13,
-  "retention_videos": 11
+  "data_points": 18,
+  "owner_analytics_videos": 15,
+  "retention_videos": 13
 }
