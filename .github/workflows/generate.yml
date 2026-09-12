@@ -5,7 +5,7 @@ on:
 
   schedule:
     - cron: "45 6 * * *"
-    - cron: "40 11 * * *"
+    - cron: "45 11 * * *"
 
 # Prevent overlapping production runs and duplicate uploads.
 concurrency:
