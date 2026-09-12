@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import shutil
 import subprocess
 from pathlib import Path
@@ -55,7 +56,7 @@ def make_metadata():
     for model in dict.fromkeys(models):
         try:
             r = client.models.generate_content(model=model, contents=prompt, config=types.GenerateContentConfig(response_mime_type="application/json"))
-            text = (getattr(r, "text", "") or "").strip().strip("`")
+            text = re.sub(r"^```(?:json)?\s*|\s*```$", "", (getattr(r, "text", "") or "").strip(), flags=re.I)
             data = json.loads(text)
             if data.get("quote"):
                 data["quote"] = " ".join(str(data["quote"]).split()[:18])
