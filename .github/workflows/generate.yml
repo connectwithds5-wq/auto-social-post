@@ -3,7 +3,7 @@ name: Generate AI Quote Video
 on:
   workflow_dispatch:
   schedule:
-    - cron: "45 6 * * *"
+    - cron: "50 6 * * *"
     - cron: "50 11 * * *"
 
 concurrency:
