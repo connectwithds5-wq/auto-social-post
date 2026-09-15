@@ -1,91 +1,91 @@
 {
-  "generated_at": "2026-09-14T05:17:14.716463+00:00",
-  "overall_summary": "Analysis of RISE MODE YouTube analytics reveals strong retention and high re-watch loops (average percentage watched up to 269.82%) on Shorts centered around silent discipline, quiet dominance, and rising from rock bottom. High audience watch ratios (>1.8x - 3.4x) early in the video directly correlate with average percentage watched exceeding 100%. Publishing consistently around 06:50 UTC and 11:50 UTC yields peak views and retention.",
+  "generated_at": "2026-09-15T05:18:08.659473+00:00",
+  "overall_summary": "Analysis of 24 RISE MODE short-form videos reveals strong performance driven by themes of quiet discipline, silence, and turning setbacks into power. Videos focusing on silent execution achieve continuous loops, with average view percentages exceeding 100% (up to 269.82%). The highest engagement and watch times cluster around two distinct daily publishing slots (06:43-07:00 UTC and 11:05-11:50 UTC). Lower retention correlates with weaker initial audience watch ratios at the 2% video progress mark.",
   "confidence": "high",
   "analytics_source": "youtube_analytics_api",
   "what_is_working": [
     {
-      "pattern": "Seamless Looping & Ultra-High Initial Hook Density",
-      "evidence": "'Build Unshakeable Discipline' achieved 269.82% average view percentage with an initial audience watch ratio of 3.44 at 2% progress; 'Turn Your Rock Bottom' achieved 130.19% view percentage with a 1.88 audience watch ratio.",
-      "action": "Maintain ultra-fast 1-second visual hooks with audio loops designed to bridge seamlessly back to the first second."
+      "pattern": "Quiet Discipline & Silent Execution Themes",
+      "evidence": "'Stop Announcing Your Moves: Forge Quiet Dominance' generated 126.35% avg view percentage and 75 estimated minutes watched; 'While They Think You Disappeared, Build Your Armor' hit 108.53% avg view percentage.",
+      "action": "Double down on themes of stealth progress, silent work, and outworking the crowd without speaking."
     },
     {
-      "pattern": "Silent Dominance & Quiet Discipline Framing",
-      "evidence": "'Stop Announcing Your Moves: Forge Quiet Dominance' pulled 126.35% average view percentage (951 views, 75 est. minutes watched) and generated 1 subscriber.",
-      "action": "Double down on themes of executing in silence, unannounced growth, and self-mastery."
+      "pattern": "Ultra-Short Loopable Formatting",
+      "evidence": "'Build Unshakeable Discipline' achieved an avg view percentage of 269.82% with 29 seconds avg view duration and 116 estimated minutes watched.",
+      "action": "Structure 10-second videos with seamless end-to-beginning audio loops to encourage multiple rewatches per view."
     }
   ],
   "what_to_improve": [
     {
-      "pattern": "Generic 'Pain Into Power' Headlines Without Specific Context",
-      "evidence": "'Turn Your Pain Into Power | RISE MODE Motivation #Shorts' dropped to 67.02% average view percentage and a 1.16 watch ratio at 2% progress compared to >1.80 for top performers.",
-      "action": "Refine hooks to focus on concrete action framing (e.g., quiet building, forged armor) rather than broad generic pain statements."
+      "pattern": "Late-Afternoon Publishing Window Drop-off",
+      "evidence": "'Activate Your RISE MODE | Powerful Mindset Motivation' published at 16:23 UTC resulted in only 9 views and a 25.47% average view percentage.",
+      "action": "Avoid publishing in the 16:00 UTC window; consolidate uploads strictly into proven morning and midday UTC slots."
     },
     {
-      "pattern": "Off-Peak Mid-Afternoon Releases",
-      "evidence": "'Activate Your RISE MODE | Powerful Mindset Motivation' published at 16:23 UTC received only 9 views and 25.47% view percentage.",
-      "action": "Avoid publishing in the 15:00-17:00 UTC window; strictly target validated morning and midday UTC slots."
+      "pattern": "Mid-Video Retention Decay at 49% Progress",
+      "evidence": "Videos like 'Turn Pain Into Power' drop from 1.16x watch ratio down to 0.7553x by progress 0.49, lowering overall view percentage to 67.02%.",
+      "action": "Introduce a secondary visual shift or audio punch precisely at the 4.5 to 5-second mark (45-50% progress) to prevent mid-video drop-off."
     }
   ],
   "retention_insights": [
     {
-      "video_pattern": "Loopable 10-15s Shorts with instantaneous payoff",
-      "drop_or_strength": "Strong hold zone through 49% progress (watch ratio maintained at 1.36x-2.91x)",
-      "evidence": "In 'Build Unshakeable Discipline', retention curve remains at 2.91x audience watch ratio at progress 0.49; 'Step Into The Fire' holds at 1.39x ratio at 0.49 progress.",
-      "action": "Keep 10-second Shorts visually packed in the first 0.5s, delivering the payoff by second 6-7 and cutting audio cleanly on a loop line at second 10."
+      "video_pattern": "Immediate Visual Hook Spike at 0.02 Progress",
+      "drop_or_strength": "Strong Hold Zone",
+      "evidence": "Top-performing video 'Forge Quiet Dominance' spikes to an audience watch ratio of 1.8549 at progress 0.02, whereas lower performer 'Turn Pain Into Power' only reaches 1.1688.",
+      "action": "Ensure the first frame and text animation occur within 0.2 seconds (0.02 progress) to trigger an immediate watch ratio spike above 1.5x."
     },
     {
-      "video_pattern": "Slow-start intros without immediate visual punch",
-      "drop_or_strength": "Early drop-off within first 3% of video progress",
-      "evidence": "'While They Think You Disappeared, Build Your Armor' had an initial watch ratio of only 1.22 at 2% progress, leading to 69.71% overall view percentage.",
-      "action": "Eliminate intro title cards or voice pauses; start directly on a strong, high-contrast action visual and verbal cliffhanger within 0-1 seconds."
+      "video_pattern": "Sustained Mid-Point Retention through 0.25 Progress",
+      "drop_or_strength": "Strong Hold Zone",
+      "evidence": "'Turn Your Rock Bottom Into Your Greatest Launchpad' maintains an audience watch ratio of 1.5325 at 0.25 progress, resulting in a 102.97% total view percentage.",
+      "action": "Maintain high visual density and fast-paced text overlays up to second 2.5 to lock audience hold above 1.5x ratio."
     }
   ],
   "best_posting_windows": [
     {
-      "window": "Morning UTC Peak",
+      "window": "Early Morning Peak",
       "hour_utc": 6,
-      "minute_utc": 50,
-      "reason": "Publications near 06:45-06:58 UTC consistently yield high retention, including 126.35% percentage watched on 'Stop Announcing Your Moves' and 129.40% on 'Step Into The Fire'.",
+      "minute_utc": 55,
+      "reason": "Publishing around 06:43-07:00 UTC consistently yields high retention and views, including 'Forge Quiet Dominance' (126.35% view percentage) and 'Build Your Armor' (108.53% view percentage).",
       "confidence": "high"
     },
     {
-      "window": "Midday UTC Peak",
+      "window": "Midday Engagement Peak",
       "hour_utc": 11,
-      "minute_utc": 50,
-      "reason": "Releases between 11:39 and 11:53 UTC generated top total views (1,161 views on 'Turn Your Pain Into Power') and peak watch times (130.19% view percentage on 'Turn Your Rock Bottom').",
+      "minute_utc": 45,
+      "reason": "Publishing around 11:05-11:50 UTC drove the highest overall view counts and engagement, including 'Turn Your Pain Into Power' (1,196 studio views, 76 likes) and 'Upgrade Your Effort' (1,129 views, 107.27% view percentage).",
       "confidence": "high"
     }
   ],
   "next_best_topics": [
     {
       "priority": 1,
-      "topic": "Silent Execution Strategy",
-      "hook": "They think you stopped. In reality, you're building an empire in the dark.",
-      "format": "Fast-paced 10-second visual overlay with high contrast text, fast dark beats, audio loop back to hook.",
-      "reason": "Silent execution titles generate the highest subscriber conversions and repeat watch percentages (>126%).",
+      "topic": "Stealth Progress & Unseen Work",
+      "hook": "Let them assume you gave up while you secretly rebuild your foundation.",
+      "format": "10-second Short: High-contrast typography, text pop at 0.1s, kinetic visual beat cut at 2.5s, seamless loop audio transition at 9.5s.",
+      "reason": "Silence and stealth themes show the highest average view percentages (>108%) and strong subscriber conversion.",
       "confidence": "high"
     },
     {
       "priority": 2,
-      "topic": "Turning Rock Bottom Into Momentum",
-      "hook": "Rock bottom isn't where you die. It's where you build foundation.",
-      "format": "Kinetic text overlay, dramatic cinematic visuals, punchy beat drop at second 4, clean loop cutoff.",
-      "reason": "'Turn Your Rock Bottom' hit 130.19% view percentage and 511 studio views.",
+      "topic": "Reframing Failure into Velocity",
+      "hook": "They called it your ending. You called it your launchpad.",
+      "format": "10-second Short: Fast kinetic visual density, bold main text hook, sub-caption payoff at 5.0s, quick subtle CTA at 8.5s.",
+      "reason": "'Turn Your Rock Bottom Into Your Greatest Launchpad' achieved 102.97% view percentage and generated 61 estimated minutes watched.",
       "confidence": "high"
     }
   ],
   "avoid_or_limit": [
     {
-      "item": "Mid-afternoon UTC upload schedule (15:00-17:00 UTC)",
-      "reason": "Outlier upload at 16:23 UTC resulted in severe underperformance (9 views, 25.47% view percentage)."
+      "item": "Late Afternoon Uploads (16:00 UTC)",
+      "reason": "Uploads during this timeframe failed to gain traction, resulting in minimal reach (9 views) and low engagement."
     },
     {
-      "item": "Generic or repeated quote rehashes without fresh framing",
-      "reason": "Standard 'Pain into Power' titles without distinctive action words show lower retention (67% - 70%) compared to quiet dominance angles (>120%)."
+      "item": "Generic Mindset Hooks Without Specific Conflict",
+      "reason": "Titles featuring generic phrasing like 'Activate Your RISE MODE' underperformed significantly compared to titles with concrete narrative tension like 'Forge Quiet Dominance'."
     }
   ],
-  "data_points": 26,
-  "owner_analytics_videos": 23,
+  "data_points": 28,
+  "owner_analytics_videos": 24,
   "retention_videos": 16
 }

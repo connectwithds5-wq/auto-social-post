@@ -1,7 +1,31 @@
 {
-  "updated_at": "2026-09-14T05:17:00.883001+00:00",
+  "updated_at": "2026-09-15T05:17:29.305369+00:00",
   "analytics_source": "youtube_analytics_api",
   "videos": [
+    {
+      "video_id": "kZqz8_rRYZ8",
+      "title": "Turn Your Darkest Moments Into Unstoppable Power",
+      "description": "Hitting rock bottom isn't the end—it's your greatest advantage. Use your lowest moments as the unbreakable foundation to rebuild stronger, bolder, and more focused than ever before. Subscribe to RISE MODE for daily high-impact motivation and mindset strategies.\n\n🔥 RISE MODE — BUILD YOUR MINDSET\n\nFollow for daily motivation, powerful quotes,\nsuccess mindset and self-improvement content.\n\n💪 Stay focused.\n🔥 Stay disciplined.\n🚀 Keep rising.\n\n\n#motivation #rockbottom #mindset #success #overcome #inspiration #reels #shorts #motivationalquotes #dailymotivation #successmindset #selfimprovement #successquotes #discipline #personalgrowth",
+      "published_at": "2026-09-14T11:57:06Z",
+      "channel_title": "Rise Mode",
+      "category_id": "22",
+      "duration": "PT11S",
+      "views": 310,
+      "likes": 17,
+      "comments": 2
+    },
+    {
+      "video_id": "3P3fD6Q3g8Q",
+      "title": "Move In Silence: Build Your Empire In The Dark | RISE MODE",
+      "description": "They think you stopped, but you are actually executing in the dark. Silence is where true empires are built. Master the art of silent execution and let your results do the talking. Welcome to RISE MODE.\n\n🔥 RISE MODE — BUILD YOUR MINDSET\n\nFollow for daily motivation, powerful quotes,\nsuccess mindset and self-improvement content.\n\n💪 Stay focused.\n🔥 Stay disciplined.\n🚀 Keep rising.\n\n\n#motivation #moveinsilence #risemode #mindset #success #selfimprovement #inspiration #shorts #motivationalquotes #dailymotivation #successmindset #successquotes #discipline #personalgrowth #motivationdaily",
+      "published_at": "2026-09-14T07:00:19Z",
+      "channel_title": "Rise Mode",
+      "category_id": "22",
+      "duration": "PT11S",
+      "views": 681,
+      "likes": 23,
+      "comments": 0
+    },
     {
       "video_id": "pGyXZ0U99XY",
       "title": "Execute Before Your Mind Makes Excuses | Ruthless Discipline",
@@ -10,8 +34,8 @@
       "channel_title": "Rise Mode",
       "category_id": "22",
       "duration": "PT11S",
-      "views": 152,
-      "likes": 5,
+      "views": 153,
+      "likes": 6,
       "comments": 0
     },
     {
@@ -22,8 +46,8 @@
       "channel_title": "Rise Mode",
       "category_id": "22",
       "duration": "PT11S",
-      "views": 385,
-      "likes": 14,
+      "views": 486,
+      "likes": 13,
       "comments": 0
     },
     {
@@ -34,9 +58,97 @@
       "channel_title": "Rise Mode",
       "category_id": "22",
       "duration": "PT11S",
-      "views": 401,
+      "views": 386,
       "likes": 10,
-      "comments": 0
+      "comments": 0,
+      "owner_analytics": {
+        "views": 321,
+        "estimatedMinutesWatched": 13,
+        "averageViewDuration": 7,
+        "averageViewPercentage": 71.81,
+        "likes": 9,
+        "comments": 0,
+        "shares": 1,
+        "subscribersGained": 0,
+        "subscribersLost": 0
+      },
+      "retention_curve": [
+        {
+          "video_progress": 0.01,
+          "audience_watch_ratio": 1.1333,
+          "relative_retention": 0.4626
+        },
+        {
+          "video_progress": 0.02,
+          "audience_watch_ratio": 1.2,
+          "relative_retention": 0.4537
+        },
+        {
+          "video_progress": 0.03,
+          "audience_watch_ratio": 1.2,
+          "relative_retention": 0.445
+        },
+        {
+          "video_progress": 0.04,
+          "audience_watch_ratio": 1.2,
+          "relative_retention": 0.4363
+        },
+        {
+          "video_progress": 0.05,
+          "audience_watch_ratio": 1.2,
+          "relative_retention": 0.4278
+        },
+        {
+          "video_progress": 0.06,
+          "audience_watch_ratio": 1.2,
+          "relative_retention": 0.4195
+        },
+        {
+          "video_progress": 0.07,
+          "audience_watch_ratio": 1.2,
+          "relative_retention": 0.4117
+        },
+        {
+          "video_progress": 0.08,
+          "audience_watch_ratio": 1.2,
+          "relative_retention": 0.4042
+        },
+        {
+          "video_progress": 0.09,
+          "audience_watch_ratio": 1.2,
+          "relative_retention": 0.3972
+        },
+        {
+          "video_progress": 0.1,
+          "audience_watch_ratio": 1.2,
+          "relative_retention": 0.3907
+        },
+        {
+          "video_progress": 0.23,
+          "audience_watch_ratio": 1.2,
+          "relative_retention": 0.3476
+        },
+        {
+          "video_progress": 0.24,
+          "audience_watch_ratio": 1.1833,
+          "relative_retention": 0.3465
+        },
+        {
+          "video_progress": 0.25,
+          "audience_watch_ratio": 1.1833,
+          "relative_retention": 0.3456
+        },
+        {
+          "video_progress": 0.26,
+          "audience_watch_ratio": 1.1833,
+          "relative_retention": 0.3447
+        },
+        {
+          "video_progress": 0.49,
+          "audience_watch_ratio": 0.7833,
+          "relative_retention": 0.3471
+        }
+      ]
     },
     {
       "video_id": "OAF8oBM8bHg",
@@ -50,16 +162,93 @@
       "likes": 28,
       "comments": 2,
       "owner_analytics": {
-        "views": 6,
-        "estimatedMinutesWatched": 0,
-        "averageViewDuration": 0,
-        "averageViewPercentage": 0,
-        "likes": 0,
+        "views": 319,
+        "estimatedMinutesWatched": 17,
+        "averageViewDuration": 7,
+        "averageViewPercentage": 72.62,
+        "likes": 12,
         "comments": 0,
         "shares": 0,
         "subscribersGained": 0,
         "subscribersLost": 0
-      }
+      },
+      "retention_curve": [
+        {
+          "video_progress": 0.01,
+          "audience_watch_ratio": 1.0879,
+          "relative_retention": 0.434
+        },
+        {
+          "video_progress": 0.02,
+          "audience_watch_ratio": 1.2527,
+          "relative_retention": 0.4249
+        },
+        {
+          "video_progress": 0.03,
+          "audience_watch_ratio": 1.2308,
+          "relative_retention": 0.4158
+        },
+        {
+          "video_progress": 0.04,
+          "audience_watch_ratio": 1.2088,
+          "relative_retention": 0.4069
+        },
+        {
+          "video_progress": 0.05,
+          "audience_watch_ratio": 1.1978,
+          "relative_retention": 0.3982
+        },
+        {
+          "video_progress": 0.06,
+          "audience_watch_ratio": 1.1978,
+          "relative_retention": 0.3897
+        },
+        {
+          "video_progress": 0.07,
+          "audience_watch_ratio": 1.1978,
+          "relative_retention": 0.3816
+        },
+        {
+          "video_progress": 0.08,
+          "audience_watch_ratio": 1.1868,
+          "relative_retention": 0.3738
+        },
+        {
+          "video_progress": 0.09,
+          "audience_watch_ratio": 1.1868,
+          "relative_retention": 0.3665
+        },
+        {
+          "video_progress": 0.1,
+          "audience_watch_ratio": 1.1868,
+          "relative_retention": 0.3597
+        },
+        {
+          "video_progress": 0.23,
+          "audience_watch_ratio": 1.1319,
+          "relative_retention": 0.3113
+        },
+        {
+          "video_progress": 0.24,
+          "audience_watch_ratio": 1.1319,
+          "relative_retention": 0.3098
+        },
+        {
+          "video_progress": 0.25,
+          "audience_watch_ratio": 1.1319,
+          "relative_retention": 0.3084
+        },
+        {
+          "video_progress": 0.26,
+          "audience_watch_ratio": 1.1319,
+          "relative_retention": 0.3072
+        },
+        {
+          "video_progress": 0.49,
+          "audience_watch_ratio": 0.8132,
+          "relative_retention": 0.3074
+        }
+      ]
     },
     {
       "video_id": "SfWjY98VuNE",
@@ -69,95 +258,95 @@
       "channel_title": "Rise Mode",
       "category_id": "22",
       "duration": "PT11S",
-      "views": 925,
+      "views": 922,
       "likes": 28,
       "comments": 0,
       "owner_analytics": {
-        "views": 511,
-        "estimatedMinutesWatched": 42,
-        "averageViewDuration": 14,
-        "averageViewPercentage": 130.19,
-        "likes": 20,
+        "views": 963,
+        "estimatedMinutesWatched": 61,
+        "averageViewDuration": 11,
+        "averageViewPercentage": 102.97,
+        "likes": 28,
         "comments": 0,
         "shares": 1,
-        "subscribersGained": 0,
+        "subscribersGained": 1,
         "subscribersLost": 0
       },
       "retention_curve": [
         {
           "video_progress": 0.01,
-          "audience_watch_ratio": 1.0769,
-          "relative_retention": 0.6155
+          "audience_watch_ratio": 1.0563,
+          "relative_retention": 0.584
         },
         {
           "video_progress": 0.02,
-          "audience_watch_ratio": 1.8811,
-          "relative_retention": 0.6066
+          "audience_watch_ratio": 1.5758,
+          "relative_retention": 0.5758
         },
         {
           "video_progress": 0.03,
-          "audience_watch_ratio": 1.8811,
-          "relative_retention": 0.5977
+          "audience_watch_ratio": 1.5714,
+          "relative_retention": 0.5678
         },
         {
           "video_progress": 0.04,
-          "audience_watch_ratio": 1.8741,
-          "relative_retention": 0.5888
+          "audience_watch_ratio": 1.5671,
+          "relative_retention": 0.5599
         },
         {
           "video_progress": 0.05,
-          "audience_watch_ratio": 1.8741,
-          "relative_retention": 0.5803
+          "audience_watch_ratio": 1.5671,
+          "relative_retention": 0.5523
         },
         {
           "video_progress": 0.06,
-          "audience_watch_ratio": 1.8671,
-          "relative_retention": 0.572
+          "audience_watch_ratio": 1.5584,
+          "relative_retention": 0.5451
         },
         {
           "video_progress": 0.07,
-          "audience_watch_ratio": 1.8671,
-          "relative_retention": 0.5641
+          "audience_watch_ratio": 1.5584,
+          "relative_retention": 0.5382
         },
         {
           "video_progress": 0.08,
-          "audience_watch_ratio": 1.8671,
-          "relative_retention": 0.5566
+          "audience_watch_ratio": 1.5584,
+          "relative_retention": 0.5317
         },
         {
           "video_progress": 0.09,
-          "audience_watch_ratio": 1.8671,
-          "relative_retention": 0.5496
+          "audience_watch_ratio": 1.5584,
+          "relative_retention": 0.5258
         },
         {
           "video_progress": 0.1,
-          "audience_watch_ratio": 1.8671,
-          "relative_retention": 0.5432
+          "audience_watch_ratio": 1.5584,
+          "relative_retention": 0.5204
         },
         {
           "video_progress": 0.23,
-          "audience_watch_ratio": 1.8392,
-          "relative_retention": 0.5023
+          "audience_watch_ratio": 1.5325,
+          "relative_retention": 0.4929
         },
         {
           "video_progress": 0.24,
-          "audience_watch_ratio": 1.8392,
-          "relative_retention": 0.5016
+          "audience_watch_ratio": 1.5325,
+          "relative_retention": 0.493
         },
         {
           "video_progress": 0.25,
-          "audience_watch_ratio": 1.8392,
-          "relative_retention": 0.5009
+          "audience_watch_ratio": 1.5325,
+          "relative_retention": 0.4931
         },
         {
           "video_progress": 0.26,
-          "audience_watch_ratio": 1.8252,
-          "relative_retention": 0.5004
+          "audience_watch_ratio": 1.5238,
+          "relative_retention": 0.4933
         },
         {
           "video_progress": 0.49,
-          "audience_watch_ratio": 1.4126,
-          "relative_retention": 0.4991
+          "audience_watch_ratio": 1.1212,
+          "relative_retention": 0.4981
         }
       ]
     },
@@ -169,95 +358,95 @@
       "channel_title": "Rise Mode",
       "category_id": "22",
       "duration": "PT11S",
-      "views": 897,
+      "views": 884,
       "likes": 33,
       "comments": 0,
       "owner_analytics": {
-        "views": 140,
-        "estimatedMinutesWatched": 8,
-        "averageViewDuration": 7,
-        "averageViewPercentage": 69.71,
-        "likes": 13,
+        "views": 917,
+        "estimatedMinutesWatched": 62,
+        "averageViewDuration": 11,
+        "averageViewPercentage": 108.52999999999999,
+        "likes": 33,
         "comments": 0,
         "shares": 0,
-        "subscribersGained": 0,
+        "subscribersGained": 1,
         "subscribersLost": 0
       },
       "retention_curve": [
         {
           "video_progress": 0.01,
-          "audience_watch_ratio": 1.0377,
-          "relative_retention": 0.3852
+          "audience_watch_ratio": 1.5639,
+          "relative_retention": 0.6167
         },
         {
           "video_progress": 0.02,
-          "audience_watch_ratio": 1.2264,
-          "relative_retention": 0.3767
+          "audience_watch_ratio": 1.6564,
+          "relative_retention": 0.6077
         },
         {
           "video_progress": 0.03,
-          "audience_watch_ratio": 1.2264,
-          "relative_retention": 0.3682
+          "audience_watch_ratio": 1.652,
+          "relative_retention": 0.5988
         },
         {
           "video_progress": 0.04,
-          "audience_watch_ratio": 1.2264,
-          "relative_retention": 0.3599
+          "audience_watch_ratio": 1.6476,
+          "relative_retention": 0.5899
         },
         {
           "video_progress": 0.05,
-          "audience_watch_ratio": 1.2075,
-          "relative_retention": 0.3517
+          "audience_watch_ratio": 1.6344,
+          "relative_retention": 0.5814
         },
         {
           "video_progress": 0.06,
-          "audience_watch_ratio": 1.2075,
-          "relative_retention": 0.3438
+          "audience_watch_ratio": 1.6256,
+          "relative_retention": 0.573
         },
         {
           "video_progress": 0.07,
-          "audience_watch_ratio": 1.1887,
-          "relative_retention": 0.3364
+          "audience_watch_ratio": 1.6211,
+          "relative_retention": 0.5651
         },
         {
           "video_progress": 0.08,
-          "audience_watch_ratio": 1.1887,
-          "relative_retention": 0.3293
+          "audience_watch_ratio": 1.6167,
+          "relative_retention": 0.5575
         },
         {
           "video_progress": 0.09,
-          "audience_watch_ratio": 1.1887,
-          "relative_retention": 0.3226
+          "audience_watch_ratio": 1.6079,
+          "relative_retention": 0.5505
         },
         {
           "video_progress": 0.1,
-          "audience_watch_ratio": 1.1698,
-          "relative_retention": 0.3165
+          "audience_watch_ratio": 1.6035,
+          "relative_retention": 0.544
         },
         {
           "video_progress": 0.23,
-          "audience_watch_ratio": 1.0943,
-          "relative_retention": 0.2774
+          "audience_watch_ratio": 1.5683,
+          "relative_retention": 0.503
         },
         {
           "video_progress": 0.24,
-          "audience_watch_ratio": 1.0943,
-          "relative_retention": 0.2765
+          "audience_watch_ratio": 1.5683,
+          "relative_retention": 0.5022
         },
         {
           "video_progress": 0.25,
-          "audience_watch_ratio": 1.0943,
-          "relative_retention": 0.2758
+          "audience_watch_ratio": 1.5683,
+          "relative_retention": 0.5016
         },
         {
           "video_progress": 0.26,
-          "audience_watch_ratio": 1.0943,
-          "relative_retention": 0.2752
+          "audience_watch_ratio": 1.5683,
+          "relative_retention": 0.5011
         },
         {
           "video_progress": 0.49,
-          "audience_watch_ratio": 0.717,
-          "relative_retention": 0.2846
+          "audience_watch_ratio": 1.141,
+          "relative_retention": 0.5006
         }
       ]
     },
@@ -269,15 +458,15 @@
       "channel_title": "Rise Mode",
       "category_id": "22",
       "duration": "PT11S",
-      "views": 768,
+      "views": 756,
       "likes": 41,
       "comments": 2,
       "owner_analytics": {
-        "views": 660,
-        "estimatedMinutesWatched": 41,
+        "views": 780,
+        "estimatedMinutesWatched": 48,
         "averageViewDuration": 9,
-        "averageViewPercentage": 89.08,
-        "likes": 36,
+        "averageViewPercentage": 88.61,
+        "likes": 41,
         "comments": 1,
         "shares": 2,
         "subscribersGained": 0,
@@ -286,78 +475,78 @@
       "retention_curve": [
         {
           "video_progress": 0.01,
-          "audience_watch_ratio": 1.0745,
-          "relative_retention": 0.5678
+          "audience_watch_ratio": 1.0826,
+          "relative_retention": 0.5665
         },
         {
           "video_progress": 0.02,
-          "audience_watch_ratio": 1.4202,
-          "relative_retention": 0.5617
+          "audience_watch_ratio": 1.4174,
+          "relative_retention": 0.5602
         },
         {
           "video_progress": 0.03,
-          "audience_watch_ratio": 1.4202,
-          "relative_retention": 0.5557
+          "audience_watch_ratio": 1.4174,
+          "relative_retention": 0.5539
         },
         {
           "video_progress": 0.04,
-          "audience_watch_ratio": 1.4149,
-          "relative_retention": 0.5499
+          "audience_watch_ratio": 1.4128,
+          "relative_retention": 0.5478
         },
         {
           "video_progress": 0.05,
-          "audience_watch_ratio": 1.4149,
-          "relative_retention": 0.5443
+          "audience_watch_ratio": 1.4128,
+          "relative_retention": 0.5419
         },
         {
           "video_progress": 0.06,
-          "audience_watch_ratio": 1.4149,
-          "relative_retention": 0.5389
+          "audience_watch_ratio": 1.4128,
+          "relative_retention": 0.5363
         },
         {
           "video_progress": 0.07,
-          "audience_watch_ratio": 1.4043,
-          "relative_retention": 0.5337
+          "audience_watch_ratio": 1.4037,
+          "relative_retention": 0.531
         },
         {
           "video_progress": 0.08,
-          "audience_watch_ratio": 1.3989,
-          "relative_retention": 0.5291
+          "audience_watch_ratio": 1.3991,
+          "relative_retention": 0.5261
         },
         {
           "video_progress": 0.09,
-          "audience_watch_ratio": 1.3989,
-          "relative_retention": 0.5247
+          "audience_watch_ratio": 1.3991,
+          "relative_retention": 0.5215
         },
         {
           "video_progress": 0.1,
-          "audience_watch_ratio": 1.3989,
-          "relative_retention": 0.5208
+          "audience_watch_ratio": 1.3991,
+          "relative_retention": 0.5174
         },
         {
           "video_progress": 0.23,
-          "audience_watch_ratio": 1.3511,
-          "relative_retention": 0.5021
+          "audience_watch_ratio": 1.3532,
+          "relative_retention": 0.498
         },
         {
           "video_progress": 0.24,
-          "audience_watch_ratio": 1.3457,
-          "relative_retention": 0.5023
+          "audience_watch_ratio": 1.3486,
+          "relative_retention": 0.4982
         },
         {
           "video_progress": 0.25,
-          "audience_watch_ratio": 1.3245,
-          "relative_retention": 0.5026
+          "audience_watch_ratio": 1.3303,
+          "relative_retention": 0.4985
         },
         {
           "video_progress": 0.26,
-          "audience_watch_ratio": 1.3245,
-          "relative_retention": 0.503
+          "audience_watch_ratio": 1.3303,
+          "relative_retention": 0.4989
         },
         {
           "video_progress": 0.49,
-          "audience_watch_ratio": 0.9787,
-          "relative_retention": 0.5209
+          "audience_watch_ratio": 0.9679,
+          "relative_retention": 0.5165
         }
       ]
     },
@@ -373,10 +562,10 @@
       "likes": 26,
       "comments": 2,
       "owner_analytics": {
-        "views": 865,
-        "estimatedMinutesWatched": 34,
+        "views": 872,
+        "estimatedMinutesWatched": 35,
         "averageViewDuration": 8,
-        "averageViewPercentage": 74.21,
+        "averageViewPercentage": 74.48,
         "likes": 26,
         "comments": 1,
         "shares": 4,
@@ -386,78 +575,78 @@
       "retention_curve": [
         {
           "video_progress": 0.01,
-          "audience_watch_ratio": 1.0662,
-          "relative_retention": 0.4814
+          "audience_watch_ratio": 1.073,
+          "relative_retention": 0.483
         },
         {
           "video_progress": 0.02,
-          "audience_watch_ratio": 1.2868,
-          "relative_retention": 0.4734
+          "audience_watch_ratio": 1.292,
+          "relative_retention": 0.475
         },
         {
           "video_progress": 0.03,
-          "audience_watch_ratio": 1.2721,
-          "relative_retention": 0.4657
+          "audience_watch_ratio": 1.2774,
+          "relative_retention": 0.4671
         },
         {
           "video_progress": 0.04,
-          "audience_watch_ratio": 1.2721,
-          "relative_retention": 0.458
+          "audience_watch_ratio": 1.2774,
+          "relative_retention": 0.4593
         },
         {
           "video_progress": 0.05,
-          "audience_watch_ratio": 1.2721,
-          "relative_retention": 0.4506
+          "audience_watch_ratio": 1.2774,
+          "relative_retention": 0.4519
         },
         {
           "video_progress": 0.06,
-          "audience_watch_ratio": 1.2647,
-          "relative_retention": 0.4436
+          "audience_watch_ratio": 1.2701,
+          "relative_retention": 0.4447
         },
         {
           "video_progress": 0.07,
-          "audience_watch_ratio": 1.2647,
-          "relative_retention": 0.437
+          "audience_watch_ratio": 1.2628,
+          "relative_retention": 0.438
         },
         {
           "video_progress": 0.08,
-          "audience_watch_ratio": 1.2647,
-          "relative_retention": 0.4309
+          "audience_watch_ratio": 1.2628,
+          "relative_retention": 0.4318
         },
         {
           "video_progress": 0.09,
-          "audience_watch_ratio": 1.2574,
-          "relative_retention": 0.4253
+          "audience_watch_ratio": 1.2555,
+          "relative_retention": 0.4261
         },
         {
           "video_progress": 0.1,
-          "audience_watch_ratio": 1.25,
-          "relative_retention": 0.4202
+          "audience_watch_ratio": 1.2482,
+          "relative_retention": 0.4209
         },
         {
           "video_progress": 0.23,
-          "audience_watch_ratio": 1.2353,
-          "relative_retention": 0.3974
+          "audience_watch_ratio": 1.2336,
+          "relative_retention": 0.3967
         },
         {
           "video_progress": 0.24,
-          "audience_watch_ratio": 1.2353,
-          "relative_retention": 0.3978
+          "audience_watch_ratio": 1.2336,
+          "relative_retention": 0.397
         },
         {
           "video_progress": 0.25,
-          "audience_watch_ratio": 1.2353,
-          "relative_retention": 0.3983
+          "audience_watch_ratio": 1.2336,
+          "relative_retention": 0.3974
         },
         {
           "video_progress": 0.26,
-          "audience_watch_ratio": 1.2353,
-          "relative_retention": 0.399
+          "audience_watch_ratio": 1.2336,
+          "relative_retention": 0.398
         },
         {
           "video_progress": 0.49,
-          "audience_watch_ratio": 0.7574,
-          "relative_retention": 0.421
+          "audience_watch_ratio": 0.7591,
+          "relative_retention": 0.4204
         }
       ]
     },
@@ -469,7 +658,7 @@
       "channel_title": "Rise Mode",
       "category_id": "22",
       "duration": "PT11S",
-      "views": 915,
+      "views": 908,
       "likes": 40,
       "comments": 2,
       "owner_analytics": {
@@ -486,78 +675,78 @@
       "retention_curve": [
         {
           "video_progress": 0.01,
-          "audience_watch_ratio": 1.113,
-          "relative_retention": 0.5244
+          "audience_watch_ratio": 1.116,
+          "relative_retention": 0.5308
         },
         {
           "video_progress": 0.02,
-          "audience_watch_ratio": 1.3219,
-          "relative_retention": 0.5182
+          "audience_watch_ratio": 1.3311,
+          "relative_retention": 0.5248
         },
         {
           "video_progress": 0.03,
-          "audience_watch_ratio": 1.3151,
-          "relative_retention": 0.512
+          "audience_watch_ratio": 1.3208,
+          "relative_retention": 0.5188
         },
         {
           "video_progress": 0.04,
-          "audience_watch_ratio": 1.3082,
-          "relative_retention": 0.506
+          "audience_watch_ratio": 1.314,
+          "relative_retention": 0.513
         },
         {
           "video_progress": 0.05,
-          "audience_watch_ratio": 1.3014,
-          "relative_retention": 0.5
+          "audience_watch_ratio": 1.3072,
+          "relative_retention": 0.5073
         },
         {
           "video_progress": 0.06,
-          "audience_watch_ratio": 1.2945,
-          "relative_retention": 0.4945
+          "audience_watch_ratio": 1.3003,
+          "relative_retention": 0.502
         },
         {
           "video_progress": 0.07,
-          "audience_watch_ratio": 1.2842,
-          "relative_retention": 0.489
+          "audience_watch_ratio": 1.2901,
+          "relative_retention": 0.4968
         },
         {
           "video_progress": 0.08,
-          "audience_watch_ratio": 1.274,
-          "relative_retention": 0.484
+          "audience_watch_ratio": 1.2799,
+          "relative_retention": 0.4919
         },
         {
           "video_progress": 0.09,
-          "audience_watch_ratio": 1.2705,
-          "relative_retention": 0.4794
+          "audience_watch_ratio": 1.2765,
+          "relative_retention": 0.4875
         },
         {
           "video_progress": 0.1,
-          "audience_watch_ratio": 1.2637,
-          "relative_retention": 0.4751
+          "audience_watch_ratio": 1.2696,
+          "relative_retention": 0.4834
         },
         {
           "video_progress": 0.23,
-          "audience_watch_ratio": 1.2363,
-          "relative_retention": 0.4516
+          "audience_watch_ratio": 1.2423,
+          "relative_retention": 0.4608
         },
         {
           "video_progress": 0.24,
-          "audience_watch_ratio": 1.2329,
-          "relative_retention": 0.4514
+          "audience_watch_ratio": 1.2389,
+          "relative_retention": 0.4607
         },
         {
           "video_progress": 0.25,
-          "audience_watch_ratio": 1.2329,
-          "relative_retention": 0.4514
+          "audience_watch_ratio": 1.2389,
+          "relative_retention": 0.4607
         },
         {
           "video_progress": 0.26,
-          "audience_watch_ratio": 1.2329,
-          "relative_retention": 0.4515
+          "audience_watch_ratio": 1.2389,
+          "relative_retention": 0.4607
         },
         {
           "video_progress": 0.49,
-          "audience_watch_ratio": 0.8801,
-          "relative_retention": 0.4663
+          "audience_watch_ratio": 0.8874,
+          "relative_retention": 0.4738
         }
       ]
     },
@@ -569,11 +758,11 @@
       "channel_title": "Rise Mode",
       "category_id": "22",
       "duration": "PT11S",
-      "views": 934,
+      "views": 937,
       "likes": 35,
       "comments": 2,
       "owner_analytics": {
-        "views": 951,
+        "views": 953,
         "estimatedMinutesWatched": 75,
         "averageViewDuration": 13,
         "averageViewPercentage": 126.34999999999998,
@@ -586,12 +775,12 @@
       "retention_curve": [
         {
           "video_progress": 0.01,
-          "audience_watch_ratio": 1.651,
+          "audience_watch_ratio": 1.6549,
           "relative_retention": 0.6334
         },
         {
           "video_progress": 0.02,
-          "audience_watch_ratio": 1.851,
+          "audience_watch_ratio": 1.8549,
           "relative_retention": 0.6258
         },
         {
@@ -673,7 +862,7 @@
       "likes": 26,
       "comments": 0,
       "owner_analytics": {
-        "views": 735,
+        "views": 736,
         "estimatedMinutesWatched": 29,
         "averageViewDuration": 7,
         "averageViewPercentage": 70.7,
@@ -786,78 +975,78 @@
       "retention_curve": [
         {
           "video_progress": 0.01,
-          "audience_watch_ratio": 1.087,
-          "relative_retention": 0.4339
+          "audience_watch_ratio": 1.0872,
+          "relative_retention": 0.4347
         },
         {
           "video_progress": 0.02,
-          "audience_watch_ratio": 1.214,
-          "relative_retention": 0.4255
+          "audience_watch_ratio": 1.2148,
+          "relative_retention": 0.4264
         },
         {
           "video_progress": 0.03,
-          "audience_watch_ratio": 1.2074,
-          "relative_retention": 0.4172
+          "audience_watch_ratio": 1.2081,
+          "relative_retention": 0.418
         },
         {
           "video_progress": 0.04,
-          "audience_watch_ratio": 1.204,
-          "relative_retention": 0.4089
+          "audience_watch_ratio": 1.2047,
+          "relative_retention": 0.4098
         },
         {
           "video_progress": 0.05,
-          "audience_watch_ratio": 1.2007,
-          "relative_retention": 0.4009
+          "audience_watch_ratio": 1.2013,
+          "relative_retention": 0.4018
         },
         {
           "video_progress": 0.06,
-          "audience_watch_ratio": 1.194,
-          "relative_retention": 0.3931
+          "audience_watch_ratio": 1.1946,
+          "relative_retention": 0.3941
         },
         {
           "video_progress": 0.07,
-          "audience_watch_ratio": 1.1906,
-          "relative_retention": 0.3856
+          "audience_watch_ratio": 1.1913,
+          "relative_retention": 0.3866
         },
         {
           "video_progress": 0.08,
-          "audience_watch_ratio": 1.1873,
-          "relative_retention": 0.3785
+          "audience_watch_ratio": 1.1879,
+          "relative_retention": 0.3795
         },
         {
           "video_progress": 0.09,
-          "audience_watch_ratio": 1.1839,
-          "relative_retention": 0.3718
+          "audience_watch_ratio": 1.1846,
+          "relative_retention": 0.3728
         },
         {
           "video_progress": 0.1,
-          "audience_watch_ratio": 1.1773,
-          "relative_retention": 0.3655
+          "audience_watch_ratio": 1.1779,
+          "relative_retention": 0.3665
         },
         {
           "video_progress": 0.23,
-          "audience_watch_ratio": 1.1438,
-          "relative_retention": 0.3204
+          "audience_watch_ratio": 1.1443,
+          "relative_retention": 0.3215
         },
         {
           "video_progress": 0.24,
-          "audience_watch_ratio": 1.1371,
-          "relative_retention": 0.3188
+          "audience_watch_ratio": 1.1376,
+          "relative_retention": 0.3199
         },
         {
           "video_progress": 0.25,
-          "audience_watch_ratio": 1.1338,
-          "relative_retention": 0.3174
+          "audience_watch_ratio": 1.1342,
+          "relative_retention": 0.3185
         },
         {
           "video_progress": 0.26,
-          "audience_watch_ratio": 1.1338,
-          "relative_retention": 0.316
+          "audience_watch_ratio": 1.1342,
+          "relative_retention": 0.3171
         },
         {
           "video_progress": 0.49,
-          "audience_watch_ratio": 0.7625,
-          "relative_retention": 0.3034
+          "audience_watch_ratio": 0.7651,
+          "relative_retention": 0.3045
         }
       ]
     },
@@ -869,14 +1058,14 @@
       "channel_title": "Rise Mode",
       "category_id": "22",
       "duration": "PT11S",
-      "views": 942,
+      "views": 940,
       "likes": 34,
       "comments": 0,
       "owner_analytics": {
-        "views": 952,
+        "views": 953,
         "estimatedMinutesWatched": 59,
         "averageViewDuration": 10,
-        "averageViewPercentage": 91.56,
+        "averageViewPercentage": 91.3,
         "likes": 34,
         "comments": 0,
         "shares": 2,
@@ -886,78 +1075,78 @@
       "retention_curve": [
         {
           "video_progress": 0.01,
-          "audience_watch_ratio": 1.1731,
-          "relative_retention": 0.572
+          "audience_watch_ratio": 1.1724,
+          "relative_retention": 0.5714
         },
         {
           "video_progress": 0.02,
-          "audience_watch_ratio": 1.4462,
-          "relative_retention": 0.5645
+          "audience_watch_ratio": 1.4444,
+          "relative_retention": 0.5637
         },
         {
           "video_progress": 0.03,
-          "audience_watch_ratio": 1.4346,
-          "relative_retention": 0.557
+          "audience_watch_ratio": 1.433,
+          "relative_retention": 0.5562
         },
         {
           "video_progress": 0.04,
-          "audience_watch_ratio": 1.4346,
-          "relative_retention": 0.5495
+          "audience_watch_ratio": 1.433,
+          "relative_retention": 0.5488
         },
         {
           "video_progress": 0.05,
-          "audience_watch_ratio": 1.4346,
-          "relative_retention": 0.5424
+          "audience_watch_ratio": 1.433,
+          "relative_retention": 0.5416
         },
         {
           "video_progress": 0.06,
-          "audience_watch_ratio": 1.4346,
-          "relative_retention": 0.5355
+          "audience_watch_ratio": 1.433,
+          "relative_retention": 0.5348
         },
         {
           "video_progress": 0.07,
-          "audience_watch_ratio": 1.4231,
-          "relative_retention": 0.529
+          "audience_watch_ratio": 1.4215,
+          "relative_retention": 0.5282
         },
         {
           "video_progress": 0.08,
-          "audience_watch_ratio": 1.4154,
-          "relative_retention": 0.5229
+          "audience_watch_ratio": 1.4138,
+          "relative_retention": 0.5221
         },
         {
           "video_progress": 0.09,
-          "audience_watch_ratio": 1.4115,
-          "relative_retention": 0.5171
+          "audience_watch_ratio": 1.41,
+          "relative_retention": 0.5163
         },
         {
           "video_progress": 0.1,
-          "audience_watch_ratio": 1.4115,
-          "relative_retention": 0.512
+          "audience_watch_ratio": 1.41,
+          "relative_retention": 0.5111
         },
         {
           "video_progress": 0.23,
-          "audience_watch_ratio": 1.35,
-          "relative_retention": 0.4833
+          "audience_watch_ratio": 1.3487,
+          "relative_retention": 0.4824
         },
         {
           "video_progress": 0.24,
-          "audience_watch_ratio": 1.35,
-          "relative_retention": 0.4833
+          "audience_watch_ratio": 1.3487,
+          "relative_retention": 0.4823
         },
         {
           "video_progress": 0.25,
-          "audience_watch_ratio": 1.35,
-          "relative_retention": 0.4833
+          "audience_watch_ratio": 1.3448,
+          "relative_retention": 0.4824
         },
         {
           "video_progress": 0.26,
-          "audience_watch_ratio": 1.35,
-          "relative_retention": 0.4835
+          "audience_watch_ratio": 1.3448,
+          "relative_retention": 0.4825
         },
         {
           "video_progress": 0.49,
-          "audience_watch_ratio": 1.0615,
-          "relative_retention": 0.5056
+          "audience_watch_ratio": 1.0575,
+          "relative_retention": 0.5047
         }
       ]
     },
@@ -1073,7 +1262,7 @@
       "likes": 22,
       "comments": 0,
       "owner_analytics": {
-        "views": 862,
+        "views": 868,
         "estimatedMinutesWatched": 45,
         "averageViewDuration": 7,
         "averageViewPercentage": 70.57,
@@ -1173,14 +1362,14 @@
       "likes": 30,
       "comments": 0,
       "owner_analytics": {
-        "views": 921,
-        "estimatedMinutesWatched": 47,
+        "views": 937,
+        "estimatedMinutesWatched": 48,
         "averageViewDuration": 8,
         "averageViewPercentage": 74.37,
         "likes": 30,
         "comments": 0,
         "shares": 2,
-        "subscribersGained": 0,
+        "subscribersGained": 1,
         "subscribersLost": 0
       },
       "retention_curve": [
@@ -1273,7 +1462,7 @@
       "likes": 21,
       "comments": 0,
       "owner_analytics": {
-        "views": 879,
+        "views": 895,
         "estimatedMinutesWatched": 38,
         "averageViewDuration": 8,
         "averageViewPercentage": 79.81,
@@ -1373,7 +1562,7 @@
       "likes": 43,
       "comments": 0,
       "owner_analytics": {
-        "views": 895,
+        "views": 897,
         "estimatedMinutesWatched": 45,
         "averageViewDuration": 7,
         "averageViewPercentage": 67.02,
@@ -1473,7 +1662,7 @@
       "likes": 16,
       "comments": 0,
       "owner_analytics": {
-        "views": 892,
+        "views": 895,
         "estimatedMinutesWatched": 63,
         "averageViewDuration": 14,
         "averageViewPercentage": 129.4,
@@ -1482,84 +1671,7 @@
         "shares": 1,
         "subscribersGained": 1,
         "subscribersLost": 0
-      },
-      "retention_curve": [
-        {
-          "video_progress": 0.01,
-          "audience_watch_ratio": 1.0588,
-          "relative_retention": 0.6162
-        },
-        {
-          "video_progress": 0.02,
-          "audience_watch_ratio": 1.9091,
-          "relative_retention": 0.6072
-        },
-        {
-          "video_progress": 0.03,
-          "audience_watch_ratio": 1.9091,
-          "relative_retention": 0.5982
-        },
-        {
-          "video_progress": 0.04,
-          "audience_watch_ratio": 1.9037,
-          "relative_retention": 0.5894
-        },
-        {
-          "video_progress": 0.05,
-          "audience_watch_ratio": 1.8984,
-          "relative_retention": 0.5807
-        },
-        {
-          "video_progress": 0.06,
-          "audience_watch_ratio": 1.8984,
-          "relative_retention": 0.5724
-        },
-        {
-          "video_progress": 0.07,
-          "audience_watch_ratio": 1.8984,
-          "relative_retention": 0.5644
-        },
-        {
-          "video_progress": 0.08,
-          "audience_watch_ratio": 1.8984,
-          "relative_retention": 0.5568
-        },
-        {
-          "video_progress": 0.09,
-          "audience_watch_ratio": 1.893,
-          "relative_retention": 0.5497
-        },
-        {
-          "video_progress": 0.1,
-          "audience_watch_ratio": 1.8824,
-          "relative_retention": 0.5432
-        },
-        {
-          "video_progress": 0.23,
-          "audience_watch_ratio": 1.861,
-          "relative_retention": 0.502
-        },
-        {
-          "video_progress": 0.24,
-          "audience_watch_ratio": 1.861,
-          "relative_retention": 0.5012
-        },
-        {
-          "video_progress": 0.25,
-          "audience_watch_ratio": 1.861,
-          "relative_retention": 0.5006
-        },
-        {
-          "video_progress": 0.26,
-          "audience_watch_ratio": 1.861,
-          "relative_retention": 0.5001
-        },
-        {
-          "video_progress": 0.49,
-          "audience_watch_ratio": 1.3957,
-          "relative_retention": 0.4988
-        }
-      ]
+      }
     },
     {
       "video_id": "5uMX7o3O9Zc",
@@ -1573,7 +1685,7 @@
       "likes": 15,
       "comments": 0,
       "owner_analytics": {
-        "views": 921,
+        "views": 933,
         "estimatedMinutesWatched": 116,
         "averageViewDuration": 29,
         "averageViewPercentage": 269.82,
@@ -1582,84 +1694,7 @@
         "shares": 2,
         "subscribersGained": 0,
         "subscribersLost": 0
-      },
-      "retention_curve": [
-        {
-          "video_progress": 0.01,
-          "audience_watch_ratio": 3.3518,
-          "relative_retention": 0.6161
-        },
-        {
-          "video_progress": 0.02,
-          "audience_watch_ratio": 3.4422,
-          "relative_retention": 0.6071
-        },
-        {
-          "video_progress": 0.03,
-          "audience_watch_ratio": 3.4372,
-          "relative_retention": 0.5981
-        },
-        {
-          "video_progress": 0.04,
-          "audience_watch_ratio": 3.4372,
-          "relative_retention": 0.5892
-        },
-        {
-          "video_progress": 0.05,
-          "audience_watch_ratio": 3.4322,
-          "relative_retention": 0.5806
-        },
-        {
-          "video_progress": 0.06,
-          "audience_watch_ratio": 3.4271,
-          "relative_retention": 0.5722
-        },
-        {
-          "video_progress": 0.07,
-          "audience_watch_ratio": 3.4322,
-          "relative_retention": 0.5642
-        },
-        {
-          "video_progress": 0.08,
-          "audience_watch_ratio": 3.4271,
-          "relative_retention": 0.5566
-        },
-        {
-          "video_progress": 0.09,
-          "audience_watch_ratio": 3.4271,
-          "relative_retention": 0.5496
-        },
-        {
-          "video_progress": 0.1,
-          "audience_watch_ratio": 3.4221,
-          "relative_retention": 0.543
-        },
-        {
-          "video_progress": 0.23,
-          "audience_watch_ratio": 3.3769,
-          "relative_retention": 0.5018
-        },
-        {
-          "video_progress": 0.24,
-          "audience_watch_ratio": 3.3769,
-          "relative_retention": 0.501
-        },
-        {
-          "video_progress": 0.25,
-          "audience_watch_ratio": 3.3769,
-          "relative_retention": 0.5004
-        },
-        {
-          "video_progress": 0.26,
-          "audience_watch_ratio": 3.3719,
-          "relative_retention": 0.4999
-        },
-        {
-          "video_progress": 0.49,
-          "audience_watch_ratio": 2.9146,
-          "relative_retention": 0.4985
-        }
-      ]
+      }
     },
     {
       "video_id": "J1IGAn2GU8s",
@@ -1673,10 +1708,10 @@
       "likes": 25,
       "comments": 0,
       "owner_analytics": {
-        "views": 872,
+        "views": 878,
         "estimatedMinutesWatched": 43,
         "averageViewDuration": 8,
-        "averageViewPercentage": 75.73,
+        "averageViewPercentage": 75.58,
         "likes": 25,
         "comments": 0,
         "shares": 2,
@@ -1696,10 +1731,10 @@
       "likes": 34,
       "comments": 2,
       "owner_analytics": {
-        "views": 900,
+        "views": 912,
         "estimatedMinutesWatched": 54,
         "averageViewDuration": 8,
-        "averageViewPercentage": 78.46,
+        "averageViewPercentage": 78.6,
         "likes": 34,
         "comments": 1,
         "shares": 2,
@@ -1742,7 +1777,7 @@
       "likes": 33,
       "comments": 0,
       "owner_analytics": {
-        "views": 1102,
+        "views": 1129,
         "estimatedMinutesWatched": 71,
         "averageViewDuration": 11,
         "averageViewPercentage": 107.27,
@@ -1765,8 +1800,8 @@
       "likes": 76,
       "comments": 3,
       "owner_analytics": {
-        "views": 1161,
-        "estimatedMinutesWatched": 77,
+        "views": 1196,
+        "estimatedMinutesWatched": 80,
         "averageViewDuration": 9,
         "averageViewPercentage": 83.82,
         "likes": 76,
@@ -1788,8 +1823,8 @@
       "likes": 17,
       "comments": 0,
       "owner_analytics": {
-        "views": 830,
-        "estimatedMinutesWatched": 46,
+        "views": 852,
+        "estimatedMinutesWatched": 47,
         "averageViewDuration": 11,
         "averageViewPercentage": 119.37,
         "likes": 17,
