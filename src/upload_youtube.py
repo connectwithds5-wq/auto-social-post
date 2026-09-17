@@ -1,3 +1,4 @@
+import json
 import os
 
 from google.auth.transport.requests import Request
@@ -11,7 +12,6 @@ SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 VIDEO_FILE = os.path.join(ROOT, "output", "quote_reel.mp4")
 METADATA_FILE = os.path.join(ROOT, "output", "metadata.json")
-
 
 SEO_KEYWORDS = [
     "motivation", "motivational quotes", "daily motivation", "success mindset",
@@ -213,5 +213,4 @@ success mindset and self-improvement content.
 
 
 if __name__ == "__main__":
-    import json
     upload_video()
