@@ -19,6 +19,9 @@ jobs:
     env:
       YOUTUBE_CHANNEL_ID: ${{ vars.YOUTUBE_CHANNEL_ID || secrets.YOUTUBE_CHANNEL_ID }}
       YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       GEMINI_MODEL: gemini-3.6-flash
       GEMINI_FALLBACK_MODEL: gemini-3.5-flash-lite
@@ -56,7 +59,7 @@ jobs:
           fi
           echo "WAN 2.2 FAILED — FALLING BACK TO EXISTING GEMINI/PIL/FFMPEG RENDERER"
           rm -rf output/wan22 output/quote_reel.mp4 output/metadata.json output/frames
-          GEMINI_MODEL=gemini-3.6-flash python src/generate_video.py
+          GEMINI_MODEL="$GEMINI_FALLBACK_MODEL" python src/generate_video.py
           FALLBACK_STATUS=$?
           if [ "$FALLBACK_STATUS" -eq 0 ] && [ -s output/quote_reel.mp4 ]; then
             echo "EXISTING FALLBACK SUCCEEDED"
@@ -95,7 +98,6 @@ jobs:
           retention-days: 7
       - name: Upload to YouTube
         env:
-          YOUTUBE_OAUTH_JSON: ${{ secrets.YOUTUBE_OAUTH_JSON }}
           YOUTUBE_PRIVACY_STATUS: public
         run: python src/upload_youtube.py
       - name: Job summary
